@@ -22,8 +22,8 @@ namespace Food_Delivery_App_BackEnd.Util
             this._context = _context;
             this.config = config;
         }
-     
-      
+
+
         public string CreateToken(Users user)
         {
             var key = config["Jwt:Key"];
@@ -38,6 +38,7 @@ namespace Food_Delivery_App_BackEnd.Util
                 new Claim(ClaimTypes.Name,user.Username),
                 new Claim(ClaimTypes.Email,user.Email),
                 new Claim(ClaimTypes.MobilePhone,user.Phone),
+                new Claim(ClaimTypes.Role,user.Role),
             });
             var tokenDescriptor = new SecurityTokenDescriptor
             {
