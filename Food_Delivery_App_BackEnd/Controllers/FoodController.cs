@@ -19,5 +19,12 @@ namespace Food_Delivery_App_BackEnd.Controllers
         {
             return repositoryFoods.GetOneFoodById(foodId);
         }
+
+        [HttpGet]
+        [Route("nameFood/{name}")]
+        public IActionResult GetRestaurantsByNameFood(string name)
+        {
+            return repositoryFoods.GetRestaurantsByNameFood(name);
+        }
     }
 }
