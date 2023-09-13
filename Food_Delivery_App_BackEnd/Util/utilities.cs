@@ -13,15 +13,35 @@ using System.Text;
 
 namespace Food_Delivery_App_BackEnd.Util
 {
+
+    public enum Status
+    {
+        PENDING = 1,
+        WAITING = 2,
+        ACCEPTING = 3,
+        DELIVERING = 4,
+        Finish = 5,
+        Cancel = 6,
+
+    }
+    public enum StatusFood
+    {
+        INTOCK = 1,
+        SOLDOUT = 2,
+
+    }
     public class utilities
     {
         IConfiguration config;
         FoodDeliveryAppDbContext _context;
+      
         public utilities(FoodDeliveryAppDbContext _context, IConfiguration config)
         {
             this._context = _context;
             this.config = config;
         }
+
+       
 
 
         public string CreateToken(Users user)
