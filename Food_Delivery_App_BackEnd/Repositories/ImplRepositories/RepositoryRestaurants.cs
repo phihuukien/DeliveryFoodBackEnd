@@ -63,7 +63,8 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
         {
             try
             {
-                var response = _context.Restaurants.Aggregate().Match(x => x.Id == id).Lookup("foods", "_id", "restaurantId", "foods").FirstOrDefault();
+                var response = _context.Restaurants.Aggregate().Match(x => x.Id == id).Lookup("foods", "_id", "restaurantId", "foods")
+                      .Project<BsonDocument>("{ username: 0 }").FirstOrDefault();
 
              
                 var restaurant = BsonSerializer.Deserialize<ResponseRestaurant>(response);
