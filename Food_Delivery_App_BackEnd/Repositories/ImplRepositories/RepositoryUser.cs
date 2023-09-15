@@ -295,7 +295,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                     image = "";
 
                 }
-                var user = Builders<Users>.Update.Set("avata",image)
+                var user = Builders<Users>.Update.Set("avatar",image)
                     .Set("username", obj.Username).Set("email", obj.Email).Set("phone", obj.Phone).Set("status", obj.Status).Set("creationtime", obj.Creationtime);
                 // xử lý ảnh
                 _context.Users.UpdateOneAsync(x => x.Id == obj.Id, user);

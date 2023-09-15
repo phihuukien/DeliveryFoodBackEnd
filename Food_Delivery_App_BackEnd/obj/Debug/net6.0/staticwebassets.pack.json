@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Nam\\Desktop\\backendapi\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\download (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\download (1).jpeg"
+    },
+    {
       "Id": "C:\\Users\\Nam\\Desktop\\backendapi\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\download.jpg",
       "PackagePath": "staticwebassets\\images\\download.jpg"
     },
@@ -203,6 +207,10 @@
     {
       "Id": "C:\\Users\\Nam\\Desktop\\backendapi\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\zestychickenpocket.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\zestychickenpocket.png"
+    },
+    {
+      "Id": "C:\\Users\\Nam\\Desktop\\backendapi\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\images.jpeg",
+      "PackagePath": "staticwebassets\\images\\images.jpeg"
     },
     {
       "Id": "C:\\Users\\Nam\\Desktop\\backendapi\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\baskinrobbins.png",
