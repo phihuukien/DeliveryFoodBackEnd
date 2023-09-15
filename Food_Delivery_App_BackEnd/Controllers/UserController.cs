@@ -1,10 +1,13 @@
 ﻿using Food_Delivery_App_BackEnd.ModelDTO;
+using Food_Delivery_App_BackEnd.Models.BusinessModels;
 using Food_Delivery_App_BackEnd.Models.DataModels;
 using Food_Delivery_App_BackEnd.Repositories.IRepositories;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
+using MongoDB.Driver;
 using Newtonsoft.Json.Linq;
 using System.IdentityModel.Tokens.Jwt;
 
@@ -17,9 +20,13 @@ namespace Food_Delivery_App_BackEnd.Controllers
     public class UserController : ControllerBase
     {
         private IRepositoryUser repositoryUser;
-        public UserController(IRepositoryUser repositoryUser)
+        private static IWebHostEnvironment _webHostEnvironment;
+       
+        public UserController(IRepositoryUser repositoryUser, IWebHostEnvironment webHostEnvironment)
         {
             this.repositoryUser = repositoryUser;
+            _webHostEnvironment = webHostEnvironment;
+           
         }
 
         // GET: api/<UserController>
@@ -95,5 +102,15 @@ namespace Food_Delivery_App_BackEnd.Controllers
         public void Delete(int id)
         {
         }
+        [HttpPost]
+        [Route("upload")]
+        public async Task<IActionResult> Upload([FromForm] UploadFile obj)
+        { 
+
+            return await repositoryUser.Upload(obj);
+
+        }
+
+      
     }
 }

@@ -1,11 +1,10 @@
-﻿using MongoDB.Bson;
-using MongoDB.Bson.Serialization.Attributes;
+﻿using MongoDB.Bson.Serialization.Attributes;
+using MongoDB.Bson;
 using System.ComponentModel.DataAnnotations;
 
 namespace Food_Delivery_App_BackEnd.Models.DataModels
 {
-    [BsonIgnoreExtraElements]
-    public class Users
+    public class UploadFile
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
@@ -27,11 +26,12 @@ namespace Food_Delivery_App_BackEnd.Models.DataModels
         [BsonElement("status")]
         public int Status { get; set; } = 1;
 
-        [BsonElement("avata")]
-        public string Avata { get; set; }
+
 
         [BsonElement("creationtime")]
         [BsonDateTimeOptions(Kind = DateTimeKind.Local)]
         public DateTime Creationtime { get; set; } = DateTime.Now;
+
+        public IFormFile? Image { get; set; }
     }
 }

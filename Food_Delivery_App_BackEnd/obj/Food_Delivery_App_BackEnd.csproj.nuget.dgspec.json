@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj": {}
+    "C:\\Users\\Nam\\Desktop\\backendapi\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj": {}
   },
   "projects": {
-    "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj": {
+    "C:\\Users\\Nam\\Desktop\\backendapi\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
+        "projectUniqueName": "C:\\Users\\Nam\\Desktop\\backendapi\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
         "projectName": "Food_Delivery_App_BackEnd",
-        "projectPath": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
-        "packagesPath": "C:\\Users\\This PC\\.nuget\\packages\\",
-        "outputPath": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\obj\\",
+        "projectPath": "C:\\Users\\Nam\\Desktop\\backendapi\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
+        "packagesPath": "C:\\Users\\Nam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nam\\Desktop\\backendapi\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\This PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
