@@ -22,13 +22,16 @@ namespace Food_Delivery_App_BackEnd.Models.DataModels
         public string Password { get; set; }
 
         [BsonElement("phone")]
-        public string Phone { get; set; }
+        public string Phone { get; set; } = String.Empty;
 
         [BsonElement("status")]
         public int Status { get; set; } = 1;
 
-        [BsonElement("avata")]
-        public string Avata { get; set; }
+        [BsonElement("role")]
+        public string Role { get; set; } = String.Empty;
+
+        [BsonElement("avatar")]
+        public string Avatar { get; set; } = String.Empty;
 
         [BsonElement("creationtime")]
         [BsonDateTimeOptions(Kind = DateTimeKind.Local)]

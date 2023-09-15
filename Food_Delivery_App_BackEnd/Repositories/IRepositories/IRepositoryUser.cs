@@ -13,6 +13,9 @@ namespace Food_Delivery_App_BackEnd.Repositories.IRepositories
         public IActionResult CheckUserExist(string type, string value);
         public IActionResult RefreshToken(string token, string username);
 
+        public IActionResult AdminLogin(RequestLogin user);
+        public IActionResult PartnerRegister(Users user);
+
         public Task<IActionResult> Upload(UploadFile obj);
        
 

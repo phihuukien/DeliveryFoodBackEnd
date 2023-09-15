@@ -34,6 +34,46 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
 
         }
 
+        public IActionResult AdminLogin(RequestLogin user)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(user.Username) || string.IsNullOrEmpty(user.Password))
+                {
+                    return new JsonResult(new { status = false, Message = "Please fill up all the fields" });
+                }
+                else
+                {
+                    var userExist = _context.Users.Find(x => x.Username == user.Username).FirstOrDefault();
+                    if (userExist != null && (userExist.Role == "ADMIN" || userExist.Role == "PARTNER") )
+                    {
+                        if (BCrypt.Net.BCrypt.Verify(user.Password, userExist.Password))
+                        {
+
+                            var token = utilities.CreateToken(userExist);
+                            return new JsonResult(new { status = true, Message = "User login successful", accessToken = token, });
+                        }
+                        else
+                        {
+                            return new JsonResult(new { status = false, Message = "Incorrect username or password" });
+                        }
+                    }
+                    else
+                    {
+                        return new JsonResult(new { status = false, Message = "Incorrect username or password" });
+                    }
+
+                }
+
+            }
+            catch (Exception)
+            {
+
+                return new JsonResult(new { status = false, Message = "User login failed" });
+
+            }
+        }
+
         public IActionResult CheckUserExist(string type, string value)
         {
             string message = "This user is not taken";
@@ -133,7 +173,39 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             }
         }
 
-        public IActionResult RefreshToken(string token, string username)
+        public IActionResult PartnerRegister(Users user)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(user.Username) || string.IsNullOrEmpty(user.Password) || string.IsNullOrEmpty(user.Email))
+                {
+                    return new JsonResult(new { status = false, Message = "Please fill up all the fields" });
+                }
+                else 
+                {
+                    var userExist = _context.Users.Find(x => x.Username == user.Username || x.Email == user.Email).FirstOrDefault();
+                    if (userExist == null)
+                    {
+                        string passwordHash = BCrypt.Net.BCrypt.HashPassword(user.Password);
+                        user.Password = passwordHash;
+                        user.Role = "PARTNER";
+                        _context.Users.InsertOne(user);
+                        return new JsonResult(new { status = true, Message = "User registered successfully" });
+                    }
+                    return new JsonResult(new { status = false, Message = "User already exist" });
+
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                return new JsonResult(new { status = false, Message = ex.Message });
+
+            }
+        }
+
+        public IActionResult RefreshToken(string token,string username)
         {
 
             JwtSecurityToken jwtSecurityToken;
@@ -172,6 +244,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                 {
                     string passwordHash = BCrypt.Net.BCrypt.HashPassword(user.Password);
                     user.Password = passwordHash;
+                    user.Role = "USER";
                     _context.Users.InsertOne(user);
                     return new JsonResult(new { status = true, Message = "User registered successfully" });
                 }
@@ -182,18 +255,11 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             {
                 var existCode = ex.Message.Contains("Code : 11000");
                 var existUsername = ex.Message.Contains("username_1 dup key");
-                var existPhone = ex.Message.Contains("phone_1 dup key");
                 string message = "User registered failed";
                 if ((existCode && existUsername) == true)
                 {
                     message = "Username already exist";
                 }
-                if ((existCode && existPhone) == true)
-                {
-                    message = "Phone already exist";
-                }
-
-
                 return new JsonResult(new { status = false, Message = message });
 
             }
