@@ -1492,23 +1492,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\This PC\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\TUF\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
+      "projectUniqueName": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
       "projectName": "Food_Delivery_App_BackEnd",
-      "projectPath": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
-      "packagesPath": "C:\\Users\\This PC\\.nuget\\packages\\",
-      "outputPath": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\obj\\",
+      "projectPath": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
+      "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
+      "outputPath": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\This PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TUF\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1574,7 +1570,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
