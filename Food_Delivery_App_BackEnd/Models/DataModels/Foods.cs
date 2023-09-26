@@ -32,6 +32,10 @@ namespace Food_Delivery_App_BackEnd.Models.DataModels
         public string Description { get; set; } = String.Empty;
 
 
+        [BsonElement("status")]
+        public int Status { get; set; } = 1;
+
+
         [BsonElement("ingredients")]
         public string Ingredients { get; set; } = String.Empty;
     }
