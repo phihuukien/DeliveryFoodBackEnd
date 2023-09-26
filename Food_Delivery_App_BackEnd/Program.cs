@@ -26,6 +26,12 @@ builder.Services.AddCors(options =>
         });
 });
 
+builder.Services.Configure<IISServerOptions>(options =>
+{
+    options.MaxRequestBodySize = int.MaxValue;
+
+});
+
 builder.Services.AddScoped<FoodDeliveryAppDbContext>();
 
 builder.Services.AddScoped<utilities>();
@@ -36,6 +42,7 @@ builder.Services.AddScoped<IRepositoryRestaurants, RepositoryRestaurants>();
 builder.Services.AddScoped<IRepositoryFoods, RepositoryFoods>();
 builder.Services.AddScoped<IRepositoryBookMarks, RepositoryBookMarks>();
 builder.Services.AddScoped<IRepositoryOrders, RepositoryOrders>();
+builder.Services.AddScoped<IRepositoryReviews, RepositoryReviews>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
            .AddJwtBearer(options =>

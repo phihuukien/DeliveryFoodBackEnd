@@ -40,13 +40,15 @@ namespace Food_Delivery_App_BackEnd.Models.DataModels
         [BsonElement("priceTotal")]
         public float PriceTotal { get; set; }
 
+        [BsonElement("reviewStatus")]
+        public int ReviewStatus { get; set; } = 1;
+
         [BsonElement("status")]
         public int Status { get; set; } = 1;
 
         [BsonDateTimeOptions(Kind = DateTimeKind.Local)]
         [BsonElement("dateCreated")]
         public DateTime DateCreated { get; set; } = DateTime.UtcNow;
-
 
 
 

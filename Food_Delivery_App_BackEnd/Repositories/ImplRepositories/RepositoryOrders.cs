@@ -44,7 +44,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             {
                 return new JsonResult(new { message = ex.Message, Status = false });
             }
-           
+
         }
 
         public IActionResult GetOrderHistory(string username)
@@ -95,13 +95,13 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                 _context.OrderDetails.InsertManyAsync(orderDetails);
                 var filter = Builders<Cart>.Filter.And(Builders<Cart>.Filter.Eq("username", requestOrder.Username),
                                                        Builders<Cart>.Filter.Eq("restaurantId", MongoDB.Bson.ObjectId.Parse(requestOrder.RestaurantId)));
-    
+
                 _context.Cart.DeleteManyAsync(filter);
-                return new JsonResult(new { Message = "Order Successfully" ,Status=true });
+                return new JsonResult(new { Message = "Order Successfully", Status = true });
             }
             catch (Exception ex)
             {
-                return new JsonResult(new { Message = ex.Message , Status = false });
+                return new JsonResult(new { Message = ex.Message, Status = false });
             }
         }
     }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uwHOUFD/Jb8KqOvndMGaxXx3lQxxbRxzBa0q3ylfljo=",
+  "Hash": "CKMxLhktscVN9jGuszr2rLtM+nU6AKR6ngRxqRARPag=",
   "Source": "Food_Delivery_App_BackEnd",
   "BasePath": "_content/Food_Delivery_App_BackEnd",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Food_Delivery_App_BackEnd\\wwwroot",
       "Source": "Food_Delivery_App_BackEnd",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\baskinrobbins.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\baskinrobbins.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/baskinrobbins.png",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\baskinrobbins.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\billgates.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\billgates.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/billgates.png",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\billgates.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\burgerking.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\burgerking.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/burgerking.png",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\burgerking.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\burgers.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\burgers.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/burgers.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\burgers.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenfries.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenfries.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/chickenfries.png",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\chickenfries.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickengoldendelight.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickengoldendelight.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/chickengoldendelight.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\chickengoldendelight.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenmaharajamac.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenmaharajamac.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/chickenmaharajamac.png",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\chickenmaharajamac.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenmcnuggets.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenmcnuggets.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/chickenmcnuggets.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\chickenmcnuggets.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickensausage.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickensausage.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/chickensausage.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\chickensausage.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickentwistedwhopper.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickentwistedwhopper.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/chickentwistedwhopper.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\chickentwistedwhopper.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenwhopper.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenwhopper.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/chickenwhopper.png",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\chickenwhopper.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenwings.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenwings.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/chickenwings.png",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\chickenwings.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\coldcoffee.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\coldcoffee.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/coldcoffee.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\coldcoffee.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\crispyvegburger.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\crispyvegburger.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/crispyvegburger.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\crispyvegburger.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\crispyvegdoublepatty.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\crispyvegdoublepatty.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/crispyvegdoublepatty.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\crispyvegdoublepatty.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\dominospizza.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\dominospizza.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/dominospizza.png",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\dominospizza.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\fries.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\fries.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/fries.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\fries.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\garlicbreadsticks.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\garlicbreadsticks.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/garlicbreadsticks.png",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\garlicbreadsticks.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\grilledchickenwings.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\grilledchickenwings.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/grilledchickenwings.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\grilledchickenwings.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\hotcoffee.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\hotcoffee.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/hotcoffee.png",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\hotcoffee.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\icedtea.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\icedtea.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/icedtea.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\icedtea.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\indianchickentikka.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\indianchickentikka.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/indianchickentikka.png",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\indianchickentikka.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\indiantandooripaneer.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\indiantandooripaneer.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/indiantandooripaneer.png",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\indiantandooripaneer.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\italianchickenfeast.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\italianchickenfeast.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/italianchickenfeast.png",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\italianchickenfeast.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\kfc.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\kfc.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/kfc.png",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\kfc.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\margherita.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\margherita.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/margherita.png",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\margherita.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcchicken.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcchicken.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/mcchicken.png",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\mcchicken.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcflurrychococrunch.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcflurrychococrunch.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/mcflurrychococrunch.png",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\mcflurrychococrunch.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcspicychicken.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcspicychicken.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/mcspicychicken.png",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\mcspicychicken.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcspicypaneer.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcspicypaneer.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/mcspicypaneer.png",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\mcspicypaneer.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcswirlchocolate.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcswirlchocolate.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/mcswirlchocolate.png",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\mcswirlchocolate.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mexicangreenwave.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mexicangreenwave.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/mexicangreenwave.png",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\mexicangreenwave.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\ourworldfamousfries.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\ourworldfamousfries.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/ourworldfamousfries.png",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\ourworldfamousfries.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\paneerandonion.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\paneerandonion.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/paneerandonion.png",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\paneerandonion.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\pepperbarbequechicken.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\pepperbarbequechicken.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/pepperbarbequechicken.png",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\pepperbarbequechicken.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\pizzahut.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\pizzahut.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/pizzahut.png",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\pizzahut.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\pizzamcpuff.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\pizzamcpuff.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/pizzamcpuff.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\pizzamcpuff.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\spicedchickenmeatballs.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\spicedchickenmeatballs.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/spicedchickenmeatballs.png",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\spicedchickenmeatballs.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\spicedtomatotwistnonveg.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\spicedtomatotwistnonveg.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/spicedtomatotwistnonveg.png",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\spicedtomatotwistnonveg.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\spicygrillchickenburger.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\spicygrillchickenburger.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/spicygrillchickenburger.png",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\spicygrillchickenburger.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\starbucks.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\starbucks.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/starbucks.png",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\starbucks.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\stuffedgarlicbread.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\stuffedgarlicbread.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/stuffedgarlicbread.png",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\stuffedgarlicbread.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\subway.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\subway.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/subway.png",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\subway.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\sundaechocolatebrownie.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\sundaechocolatebrownie.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/sundaechocolatebrownie.png",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\sundaechocolatebrownie.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\sundaestrawberry.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\sundaestrawberry.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/sundaestrawberry.png",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\sundaestrawberry.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\teawithmilk.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\teawithmilk.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/teawithmilk.png",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\teawithmilk.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\vegextravaganza.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\vegextravaganza.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/vegextravaganza.png",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\vegextravaganza.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\veggiesupreme.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\veggiesupreme.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/veggiesupreme.png",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\veggiesupreme.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\vegloaded.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\vegloaded.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/vegloaded.png",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\vegloaded.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\zestychickenpocket.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\zestychickenpocket.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/gallery/square/zestychickenpocket.png",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\zestychickenpocket.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\baskinrobbins.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\baskinrobbins.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/logo/baskinrobbins.png",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\baskinrobbins.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\burgerking.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\burgerking.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/logo/burgerking.png",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\burgerking.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\dominos.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\dominos.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/logo/dominos.png",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\dominos.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\kfc.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\kfc.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/logo/kfc.png",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\kfc.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\mcdonalds.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\mcdonalds.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/logo/mcdonalds.png",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\mcdonalds.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\pizzahut.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\pizzahut.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/logo/pizzahut.png",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\pizzahut.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\starbucks.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\starbucks.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/logo/starbucks.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\starbucks.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\subway.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\subway.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/logo/subway.png",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\subway.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\baskinrobbins.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\baskinrobbins.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/poster/baskinrobbins.png",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\images\\poster\\baskinrobbins.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\burgerking.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\burgerking.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/poster/burgerking.png",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\images\\poster\\burgerking.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\dominos.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\dominos.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/poster/dominos.png",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\images\\poster\\dominos.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\kfc.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\kfc.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/poster/kfc.png",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\images\\poster\\kfc.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\mcdonalds.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\mcdonalds.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/poster/mcdonalds.png",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\images\\poster\\mcdonalds.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\pizzahut.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\pizzahut.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/poster/pizzahut.png",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\images\\poster\\pizzahut.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\starbucks.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\starbucks.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/poster/starbucks.png",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\images\\poster\\starbucks.png"
     },
     {
-      "Identity": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\subway.png",
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\subway.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
       "BasePath": "_content/Food_Delivery_App_BackEnd",
       "RelativePath": "images/poster/subway.png",
       "AssetKind": "All",
@@ -1137,6 +1137,312 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\poster\\subway.png"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_25e22fe1-07b0-4be5-adf1-8d331b161f8a.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_25e22fe1-07b0-4be5-adf1-8d331b161f8a.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_25e22fe1-07b0-4be5-adf1-8d331b161f8a.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_25f2b4c0-2273-46e8-a43a-c410025f97a5.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_25f2b4c0-2273-46e8-a43a-c410025f97a5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_25f2b4c0-2273-46e8-a43a-c410025f97a5.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_29a5fe92-3a28-4188-ae88-dc45a32607ff.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_29a5fe92-3a28-4188-ae88-dc45a32607ff.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_29a5fe92-3a28-4188-ae88-dc45a32607ff.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_332c86e7-2b2e-43cd-8c6f-fb1a10bd6cac.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_332c86e7-2b2e-43cd-8c6f-fb1a10bd6cac.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_332c86e7-2b2e-43cd-8c6f-fb1a10bd6cac.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_3da488e1-ad86-4e02-aab0-1d208b964ac6.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_3da488e1-ad86-4e02-aab0-1d208b964ac6.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_3da488e1-ad86-4e02-aab0-1d208b964ac6.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_56fd30f1-72b1-43a4-977f-276e9bffd15e.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_56fd30f1-72b1-43a4-977f-276e9bffd15e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_56fd30f1-72b1-43a4-977f-276e9bffd15e.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_57534a04-6653-49aa-9160-f04c42432a72.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_57534a04-6653-49aa-9160-f04c42432a72.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_57534a04-6653-49aa-9160-f04c42432a72.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_587cf651-3a1b-40a9-87cb-2ab5b161e662.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_587cf651-3a1b-40a9-87cb-2ab5b161e662.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_587cf651-3a1b-40a9-87cb-2ab5b161e662.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_62c9a00f-0942-4f8e-bff3-6b93ed1305d4.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_62c9a00f-0942-4f8e-bff3-6b93ed1305d4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_62c9a00f-0942-4f8e-bff3-6b93ed1305d4.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_79fd82ca-f5b4-4d90-a86f-f4fe41688d0e.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_79fd82ca-f5b4-4d90-a86f-f4fe41688d0e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_79fd82ca-f5b4-4d90-a86f-f4fe41688d0e.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_9cc1d778-3fa7-48e6-be8f-1d68f6557efe.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_9cc1d778-3fa7-48e6-be8f-1d68f6557efe.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_9cc1d778-3fa7-48e6-be8f-1d68f6557efe.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_af656f8d-f147-4eb7-a0ec-1089c0f62a20.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_af656f8d-f147-4eb7-a0ec-1089c0f62a20.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_af656f8d-f147-4eb7-a0ec-1089c0f62a20.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_b6c8279d-e9f2-4a0e-9ed3-8d788af37bbb.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_b6c8279d-e9f2-4a0e-9ed3-8d788af37bbb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_b6c8279d-e9f2-4a0e-9ed3-8d788af37bbb.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_b70c938e-da6c-4d5a-a6a4-12de46269c5c.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_b70c938e-da6c-4d5a-a6a4-12de46269c5c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_b70c938e-da6c-4d5a-a6a4-12de46269c5c.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_d78934af-b06a-4666-bc53-58c9bd26d732.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_d78934af-b06a-4666-bc53-58c9bd26d732.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_d78934af-b06a-4666-bc53-58c9bd26d732.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_e8ec0ea4-236e-48f9-8d44-4c9ba90c9ead.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_e8ec0ea4-236e-48f9-8d44-4c9ba90c9ead.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_e8ec0ea4-236e-48f9-8d44-4c9ba90c9ead.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_f1c9c2ea-857b-4657-82da-4df98b8b296e.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_f1c9c2ea-857b-4657-82da-4df98b8b296e.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_f1c9c2ea-857b-4657-82da-4df98b8b296e.jpg"
+    },
+    {
+      "Identity": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_f9dda299-7ed3-4515-a71f-134de37c6d91.jpg",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/reviews/rn_image_picker_lib_temp_f9dda299-7ed3-4515-a71f-134de37c6d91.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\reviews\\rn_image_picker_lib_temp_f9dda299-7ed3-4515-a71f-134de37c6d91.jpg"
     }
   ]
 }
