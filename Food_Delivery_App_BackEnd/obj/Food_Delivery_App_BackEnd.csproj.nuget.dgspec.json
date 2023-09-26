@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj": {}
+    "D:\\TAI\\CODE\\do_an_s4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj": {}
   },
   "projects": {
-    "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj": {
+    "D:\\TAI\\CODE\\do_an_s4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
+        "projectUniqueName": "D:\\TAI\\CODE\\do_an_s4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
         "projectName": "Food_Delivery_App_BackEnd",
-        "projectPath": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
-        "packagesPath": "C:\\Users\\This PC\\.nuget\\packages\\",
-        "outputPath": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\obj\\",
+        "projectPath": "D:\\TAI\\CODE\\do_an_s4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\TAI\\CODE\\do_an_s4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\This PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -87,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
