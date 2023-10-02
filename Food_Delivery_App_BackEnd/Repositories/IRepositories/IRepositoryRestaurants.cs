@@ -7,5 +7,10 @@ namespace Food_Delivery_App_BackEnd.Repositories.IRepositories
     {
         public IActionResult GetAllRestaurants();
         public IActionResult GetOneRestaurantById(string id);
+
+        public IActionResult GetAllRestaurantsAdmin(int page);
+
+        public IActionResult GetRestaurantsByUsernamePartner(string username);
+        public IActionResult GetRestaurantsByTag(string tagName);
     }
 }

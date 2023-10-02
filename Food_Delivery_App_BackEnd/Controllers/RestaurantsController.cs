@@ -31,5 +31,12 @@ namespace Food_Delivery_App_BackEnd.Controllers
         {
             return repositoryRestaurants.GetOneRestaurantById(restaurantId);
         }
+
+        [HttpGet]
+        [Route("tag/{tagName}")]
+        public IActionResult GetRestaurantsByTag(string tagName)
+        {
+            return repositoryRestaurants.GetRestaurantsByTag(tagName);
+        }
     }
 }

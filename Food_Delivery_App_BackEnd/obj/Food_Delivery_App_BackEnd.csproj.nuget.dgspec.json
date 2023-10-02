@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[17.7.2, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.20.0, )"

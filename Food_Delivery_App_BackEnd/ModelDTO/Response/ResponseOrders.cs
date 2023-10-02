@@ -15,6 +15,9 @@ namespace Food_Delivery_App_BackEnd.ModelDTO.Response
         [BsonElement("restaurantId")]
         public string RestaurantId { get; set; } = String.Empty;
 
+        [BsonElement("orderCode")]
+        public string OrderCode { get; set; } = String.Empty;
+
         [BsonElement("quantity")]
         public int Quantity { get; set; }
 
@@ -47,8 +50,12 @@ namespace Food_Delivery_App_BackEnd.ModelDTO.Response
         [BsonElement("restaurant")]
         public List<Restaurants>? Restaurant { get; set; }
 
+        [BsonElement("user")]
+        public List<Users>? User { get; set; }
+
+
         [BsonElement("reviewStatus")]
         public int ReviewStatus { get; set; } = 1;
 
-    }
+        }
 }

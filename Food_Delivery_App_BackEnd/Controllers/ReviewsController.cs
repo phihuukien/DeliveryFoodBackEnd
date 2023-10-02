@@ -20,11 +20,9 @@ namespace Food_Delivery_App_BackEnd.Controllers
     public class ReviewsController : ControllerBase
     {
         private IRepositoryReviews repositoryReviews;
-        FoodDeliveryAppDbContext _context;
-        public ReviewsController(IRepositoryReviews repositoryReviews, FoodDeliveryAppDbContext context)
+        public ReviewsController(IRepositoryReviews repositoryReviews)
         {
             this.repositoryReviews = repositoryReviews;
-            _context = context;
         }
 
         [HttpPost]
@@ -42,11 +40,33 @@ namespace Food_Delivery_App_BackEnd.Controllers
             return repositoryReviews.GetReview(foodId);
 
         }
+
         [HttpGet]
         [Route("item/{orderId}")]
         public IActionResult GetOrderDetail(string orderId)
         {
             return repositoryReviews.GetOrderDetail(orderId);
+        }
+
+        [HttpGet]
+        [Route("rating/{restaurantId}")]
+        public IActionResult GetRating(string restaurantId)
+        {
+            return repositoryReviews.GetRating(restaurantId);
+        }
+
+        [HttpGet]
+        [Route("getAll/{restaurantId}")]
+        public IActionResult GetReviewByRestaurant(string restaurantId, string? sort_order, string? sort_orderBy, int page, string? from_date, string? to_date)
+        {
+            return repositoryReviews.GetReviewByRestaurant(restaurantId, sort_order, sort_orderBy, page, from_date, to_date);
+        }
+
+        [HttpDelete]
+        [Route("delete/{reviewId}")]
+        public IActionResult DeleteReview(string reviewId)
+        {
+            return repositoryReviews.DeleteReview(reviewId);
         }
     }
 }

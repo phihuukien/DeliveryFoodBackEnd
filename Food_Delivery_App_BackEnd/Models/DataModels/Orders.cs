@@ -4,15 +4,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using MongoDB.Bson;
+using Food_Delivery_App_BackEnd.Util;
 
 namespace Food_Delivery_App_BackEnd.Models.DataModels
 {
+    
     [BsonIgnoreExtraElements]
     public class Orders
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; } = String.Empty;
+
+        [BsonElement("orderCode")]
+        public string OrderCode { get; set; } = String.Empty;
 
         [BsonRepresentation(BsonType.ObjectId)]
         [BsonElement("restaurantId")]

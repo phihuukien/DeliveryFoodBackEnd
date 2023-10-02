@@ -43,6 +43,7 @@ builder.Services.AddScoped<IRepositoryFoods, RepositoryFoods>();
 builder.Services.AddScoped<IRepositoryBookMarks, RepositoryBookMarks>();
 builder.Services.AddScoped<IRepositoryOrders, RepositoryOrders>();
 builder.Services.AddScoped<IRepositoryReviews, RepositoryReviews>();
+builder.Services.AddScoped<IRepositoryTags, RepositoryTags>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
            .AddJwtBearer(options =>
