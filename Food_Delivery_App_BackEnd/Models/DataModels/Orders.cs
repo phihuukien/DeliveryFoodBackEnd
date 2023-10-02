@@ -45,7 +45,9 @@ namespace Food_Delivery_App_BackEnd.Models.DataModels
         [BsonElement("priceTotal")]
         public float PriceTotal { get; set; }
 
-       
+        [BsonElement("deliveringStatus")]
+        public int DeliveringStatus { get; set; }
+
         [BsonElement("status")]
         public int Status { get; set; }
 
