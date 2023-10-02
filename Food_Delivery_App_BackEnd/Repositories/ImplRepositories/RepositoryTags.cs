@@ -13,10 +13,10 @@ using Newtonsoft.Json.Linq;
 
 namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
 {
-    public class RespositoryTags : IRepositoryTags
+    public class RepositoryTags : IRepositoryTags
     {
         FoodDeliveryAppDbContext _context;
-        public RespositoryTags(FoodDeliveryAppDbContext _context)
+        public RepositoryTags(FoodDeliveryAppDbContext _context)
         {
             this._context = _context;
 

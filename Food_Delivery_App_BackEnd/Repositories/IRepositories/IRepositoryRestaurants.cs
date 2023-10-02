@@ -12,5 +12,10 @@ namespace Food_Delivery_App_BackEnd.Repositories.IRepositories
 
         public IActionResult GetRestaurantsByUsernamePartner(string username);
 
+        public IActionResult AddRestaurant(Restaurants restaurants);
+
+        public IActionResult UpdateRestaurant(Restaurants restaurants);
+
+        public IActionResult UpdateStatus(String id);
     }
 }

@@ -22,6 +22,22 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             this._context = _context;
 
         }
+
+        public IActionResult AddRestaurant(Restaurants restaurants)
+        {
+            try
+            {
+                _context.Restaurants.InsertOne(restaurants);
+                return new JsonResult(new { status = true, Message = "Restaurants add successfully" });
+
+            }
+            catch (Exception EX)
+            {
+
+                return new JsonResult(new { Status = false, Message = "Restaurants add failed", Error = "Restaurants add failed : " + EX.Message });
+            }
+        }
+
         public IActionResult GetAllRestaurants()
         {
             try
@@ -96,6 +112,16 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             }
 
             return new JsonResult(new { Status = false, Message = "No restaurant found" });
+        }
+
+        public IActionResult UpdateRestaurant(Restaurants restaurants)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IActionResult UpdateStatus(string id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

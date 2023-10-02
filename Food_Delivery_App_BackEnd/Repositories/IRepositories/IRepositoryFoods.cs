@@ -7,7 +7,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.IRepositories
     public interface IRepositoryFoods
     {
         public JsonResult GetOneFoodById(string foodId);
-        public JsonResult GetAllFoodByRestaurantId(string restaurantId);
+        public JsonResult GetAllFoodByRestaurantId(string restaurantId,int page, int limit, string? textsearch);
         public JsonResult GetRestaurantsByNameFood(string name);
         public IActionResult AddFood(Foods food);
         public IActionResult UpdateFood(Foods food);

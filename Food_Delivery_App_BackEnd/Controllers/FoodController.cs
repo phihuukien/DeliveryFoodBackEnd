@@ -18,9 +18,9 @@ namespace Food_Delivery_App_BackEnd.Controllers
 
         [HttpGet]
         [Route("getAllFoods/{restaurantId}")]
-        public IActionResult GetAllFoodByRestaurantId(string restaurantId)
+        public IActionResult GetAllFoodByRestaurantId(string restaurantId,int page, int limit, string? textsearch)
         {
-            return repositoryFoods.GetAllFoodByRestaurantId(restaurantId);
+            return repositoryFoods.GetAllFoodByRestaurantId(restaurantId,page,limit,textsearch);
         }
 
         [HttpGet]
@@ -45,7 +45,7 @@ namespace Food_Delivery_App_BackEnd.Controllers
             return repositoryFoods.AddFood(food);
         }
 
-        [HttpPost]
+        [HttpDelete]
         [Route("deleteFood/{id}")]
         public IActionResult DeleteFood(String id)
         {
