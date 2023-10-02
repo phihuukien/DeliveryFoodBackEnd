@@ -2,6 +2,7 @@
 using Food_Delivery_App_BackEnd.Models.BusinessModels;
 using Food_Delivery_App_BackEnd.Models.DataModels;
 using Food_Delivery_App_BackEnd.Repositories.IRepositories;
+using Humanizer;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
@@ -9,6 +10,7 @@ using MongoDB.Driver;
 using MongoDB.Driver.Core.Bindings;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.Text.RegularExpressions;
 
 namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
 {
@@ -112,16 +114,6 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             }
 
             return new JsonResult(new { Status = false, Message = "No restaurant found" });
-        }
-
-        public IActionResult UpdateRestaurant(Restaurants restaurants)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IActionResult UpdateStatus(string id)
-        {
-            throw new NotImplementedException();
         }
     }
 }
