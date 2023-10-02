@@ -11,6 +11,8 @@ namespace Food_Delivery_App_BackEnd.Repositories.IRepositories
         public IActionResult GetOrderHistory(string username);
 
         public IActionResult GetOrderPending(string restaurantId);
+        public IActionResult GetOrderWaiting();
+        public IActionResult GetOrderWaitingPartner(string restaurantId);
         public IActionResult GetOrderToday(string restaurantId);
         public IActionResult GetOrderAll(string restaurantId, 
                                          string? searchString, 
@@ -22,6 +24,11 @@ namespace Food_Delivery_App_BackEnd.Repositories.IRepositories
                                          int? order_status);
 
         public IActionResult UpdateOrderStatus(string restaurantId, int status ,string orderId);
+        public IActionResult UpdateDeliveringStatus(int status, string orderId);
         public IActionResult GetOrderDetail(string restaurantId, string orderId);
+        public IActionResult GetOrderDetailForShiper(string orderId);
+        public IActionResult CancelDetail();
+
+        public IActionResult GetOrderDelivering();
     }
 }
