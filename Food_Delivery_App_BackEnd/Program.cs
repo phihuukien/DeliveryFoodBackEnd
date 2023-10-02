@@ -39,6 +39,7 @@ builder.Services.AddScoped<IRepositoryFoods, RepositoryFoods>();
 builder.Services.AddScoped<IRepositoryBookMarks, RepositoryBookMarks>();
 builder.Services.AddScoped<IRepositoryOrders, RepositoryOrders>();
 builder.Services.AddScoped<IRepositoryTags, RepositoryTags>();
+builder.Services.AddScoped<IRepositoryCategoriesRestaurants, RepositoryCategoriesRestaurants>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
            .AddJwtBearer(options =>

@@ -115,5 +115,39 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
 
             return new JsonResult(new { Status = false, Message = "No restaurant found" });
         }
+
+        public IActionResult PagingRestaurantsByUsername(string username, int limit, string? textSearch, int page)
+        {
+            var filter = Builders<Restaurants>.Filter.Where(x => x.Username == username);
+
+            if (!string.IsNullOrEmpty(textSearch))
+            {
+                var regexFilter = Builders<Restaurants>.Filter.Regex("Name", new BsonRegularExpression(new Regex(textSearch, RegexOptions.IgnoreCase)));
+                filter = Builders<Restaurants>.Filter.And(filter, regexFilter);
+            }
+
+            var find = _context.Restaurants.Find(filter);
+
+            int skip = limit * (page - 1);
+            var total_document = find.CountDocuments();
+            var total_Page = total_document % limit == 0 ? total_document / limit : total_document / limit + 1;
+            var restaurants = find.Skip(skip).Limit(limit).ToList();
+            if (restaurants.Count > 0)
+            {
+                return new JsonResult(new { Status = true, Message = " get restaurants successfly", total_Page = total_Page, Data = restaurants });
+            }
+
+            return new JsonResult(new { Status = false, Message = "No restaurant found" });
+        }
+
+        public IActionResult UpdateRestaurant(Restaurants restaurants)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IActionResult UpdateStatus(string id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
