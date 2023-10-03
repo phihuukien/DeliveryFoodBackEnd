@@ -42,6 +42,7 @@ namespace Food_Delivery_App_BackEnd.Controllers
         [Route("addFood")]
         public IActionResult AddFood([FromBody] Foods food)
         {
+
             return repositoryFoods.AddFood(food);
         }
 

@@ -38,7 +38,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
         {
             try
             {
-                _context.Foods.DeleteOne(id);
+                _context.Foods.DeleteOne(x=> x.Id ==id);
                 return new JsonResult(new { status = true, Message = "Delete food successfully" });
 
             }
