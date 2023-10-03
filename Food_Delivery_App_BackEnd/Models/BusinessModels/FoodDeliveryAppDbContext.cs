@@ -1,4 +1,5 @@
-﻿using Food_Delivery_App_BackEnd.Models.DataModels;
+﻿using Amazon.SecurityToken.Model;
+using Food_Delivery_App_BackEnd.Models.DataModels;
 using MongoDB.Driver;
 
 namespace Food_Delivery_App_BackEnd.Models.BusinessModels
@@ -26,6 +27,8 @@ namespace Food_Delivery_App_BackEnd.Models.BusinessModels
         public IMongoCollection<Cart> Cart => Connection.GetCollection<Cart>("carts");
         public IMongoCollection<Orders> Orders => Connection.GetCollection<Orders>("orders");
         public IMongoCollection<OrderDetails> OrderDetails => Connection.GetCollection<OrderDetails>("orderdetails");
+        public IMongoCollection<CategoriesRestaurants> CategoriesRestaurants => Connection.GetCollection<CategoriesRestaurants>("categories_restaurants");
+        public IMongoCollection<Tags> Tags => Connection.GetCollection<Tags>("tags");
 
     }
 }
