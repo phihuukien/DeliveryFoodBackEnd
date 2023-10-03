@@ -1,4 +1,5 @@
 ﻿using Food_Delivery_App_BackEnd.ModelDTO;
+using Food_Delivery_App_BackEnd.ModelDTO.Response;
 using Food_Delivery_App_BackEnd.Models.BusinessModels;
 using Food_Delivery_App_BackEnd.Models.DataModels;
 using Food_Delivery_App_BackEnd.Repositories.IRepositories;
@@ -57,6 +58,64 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             var total_Page = total_document % page_size == 0 ? total_document / page_size : total_document / page_size + 1;
             var data = _context.Restaurants.Find(Restaurants => true).Skip(skip).Limit(page_size).ToList();
             return new JsonResult(new { Status = true, Page = page, Total_Page = total_Page, Data = data });
+        }
+
+        public IActionResult GetAllRestaurantsByRate()
+        {
+            try
+            {
+                var restaurantsIds = _context.Orders.Find(x => x.ReviewStatus == 2).ToList();
+                var response2 = _context.Orders.Aggregate().Match(x=> x.ReviewStatus == 2)
+                                                  .Group(BsonDocument.Parse("{ _id: '$restaurantId'}"))
+                                                  .ToList();
+                var resString = new List<ResponseId>();
+                foreach (var item2 in response2)
+                {
+                    resString.Add(BsonSerializer.Deserialize<ResponseId>(item2));
+                }
+                var responseRestaurants = new List<ResponseRestaurantsByRate>();
+                foreach (var item in resString)
+                {
+                    var response = _context.Orders.Aggregate().Match(x => x.RestaurantId == item.Id & x.ReviewStatus == 2)
+                                                  .Lookup("restaurants", "restaurantId", "_id", "restaurant")
+                                                  .Lookup("reviews", "_id", "orderId", "reviews")
+                                                  .Project<BsonDocument>("{ reviews: 1,restaurant:1}")
+                                                  .ToList();
+                    if (response.Count > 0)
+                    {
+                        var reviews = new List<ResponseRateRes>();
+                        foreach (var item2 in response)
+                        {
+                            reviews.Add(BsonSerializer.Deserialize<ResponseRateRes>(item2));
+                        }
+                        var totalRating = 0;
+                        var totalOrderRated = 0;
+                        foreach (var item2 in reviews)
+                        {
+                            if (item2.Reviews.Count > 0)
+                            {
+                                totalRating += item2.Reviews[0].Rate;
+                                totalOrderRated++;
+                            }
+                        }
+                        var avgRating = (double)totalRating / totalOrderRated;
+                        var resByRate = new ResponseRestaurantsByRate();
+                        resByRate.Id = reviews[0].Restaurant[0].Id;
+                        resByRate.Name = reviews[0].Restaurant[0].Name;
+                        resByRate.Image = reviews[0].Restaurant[0].Images;
+                        resByRate.Rate = avgRating;
+                        resByRate.Tags = reviews[0].Restaurant[0].Tags;
+                        resByRate.TotalOrderRated = totalOrderRated;
+                        responseRestaurants.Add(resByRate);
+                    }
+                }
+                var resultData = responseRestaurants.Where(x => x.Rate > 3.0).ToList();
+                return new JsonResult(new { Message = "Successfully", Status = true, Data = resultData });
+            }
+            catch (Exception ex)
+            {
+                return new JsonResult(new { Message = ex.Message, Status = false, });
+            }
         }
 
         public IActionResult GetOneRestaurantById(string id)

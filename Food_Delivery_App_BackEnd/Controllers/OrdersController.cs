@@ -9,7 +9,6 @@ namespace Food_Delivery_App_BackEnd.Controllers
 {
     [Route("api/orders")]
     [ApiController]
-    [Authorize]
     public class OrdersController :  ControllerBase
     {
         private IRepositoryOrders repositoryOrders;
@@ -20,12 +19,14 @@ namespace Food_Delivery_App_BackEnd.Controllers
 
         [HttpPost]
         [Route("add")]
+        [Authorize]
         public IActionResult AddOrder([FromBody] RequestOrder requestOrder)
         {
             return repositoryOrders.Order(requestOrder);
         }
         [HttpGet]
         [Route("getordercoming")]
+        [Authorize]
         public IActionResult GetOrderComing()
         {
             if (HttpContext.Request.Headers.TryGetValue("Authorization", out var headerAuth))
@@ -38,7 +39,15 @@ namespace Food_Delivery_App_BackEnd.Controllers
             return BadRequest(new { status = false, Message = "jwt not found" });
         }
         [HttpGet]
+        [Route("getorderwaiting")]
+        public IActionResult GetOrderWaiting()
+        {
+             return repositoryOrders.GetOrderWaiting();
+        }
+      
+        [HttpGet]
         [Route("getorderhistory")]
+        [Authorize]
         public IActionResult GetOrderHistory()
         {
             if (HttpContext.Request.Headers.TryGetValue("Authorization", out var headerAuth))
@@ -49,6 +58,24 @@ namespace Food_Delivery_App_BackEnd.Controllers
                 return repositoryOrders.GetOrderHistory(username);
             }
             return BadRequest(new { status = false, Message = "jwt not found" });
+        }
+        [HttpGet]
+        [Route("update_order_status/{status}/{orderId}")]
+        public IActionResult UpdateOdeStatusByShipper( int status, string orderId)
+        {
+            return repositoryOrders.UpdateDeliveringStatus(status, orderId);
+        }
+        [HttpGet]
+        [Route("get-order-delivering")]
+        public IActionResult GetOrderDelivering()
+        {
+            return repositoryOrders.GetOrderDelivering();
+        }
+        [HttpGet]
+        [Route("get-order-detail/{orderId}")]
+        public IActionResult GetOrderDetail(string orderId)
+        {
+            return repositoryOrders.GetOrderDetailForShiper(orderId);
         }
     }
 }

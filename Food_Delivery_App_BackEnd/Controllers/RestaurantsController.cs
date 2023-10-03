@@ -24,6 +24,12 @@ namespace Food_Delivery_App_BackEnd.Controllers
         {
             return repositoryRestaurants.GetAllRestaurants();
         }
+        [HttpGet]
+        [Route("get-by-rate")]
+        public IActionResult GetRestaurantsByRate()
+        {
+            return repositoryRestaurants.GetAllRestaurantsByRate();
+        }
 
         [HttpGet]
         [Route("{restaurantId}")]

@@ -48,6 +48,9 @@ namespace Food_Delivery_App_BackEnd.Models.DataModels
         [BsonElement("reviewStatus")]
         public int ReviewStatus { get; set; } = 1;
 
+        [BsonElement("deliveringStatus")]
+        public int DeliveringStatus { get; set; }
+
         [BsonElement("status")]
         public int Status { get; set; } = 1;
 

@@ -1,7 +1,9 @@
 ﻿using Food_Delivery_App_BackEnd.Repositories.ImplRepositories;
 using Food_Delivery_App_BackEnd.Repositories.IRepositories;
+using Food_Delivery_App_BackEnd.Util;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using System.IdentityModel.Tokens.Jwt;
 
 namespace Food_Delivery_App_BackEnd.Controllers
@@ -10,19 +12,33 @@ namespace Food_Delivery_App_BackEnd.Controllers
     [ApiController]
     public class PartnerOrdersController : ControllerBase
     {
-
+      
         private IRepositoryOrders repositoryOrders;
         public PartnerOrdersController(IRepositoryOrders repositoryOrders)
         {
             this.repositoryOrders = repositoryOrders;
+        
         }
-
         [HttpGet]
-        [Route("{restaurantId}/getOrder_pending")]
+        [Route("test")]
+        public async Task<IActionResult> testSigNal()
+        {
+
+            return repositoryOrders.CancelDetail();
+        }
+        [HttpGet]
+        [Route("get-order-pending/{restaurantId}")]
         public IActionResult GetOrderPending(string restaurantId)
         {
             return repositoryOrders.GetOrderPending(restaurantId);
         }
+        [HttpGet]
+        [Route("get-order-waiting/{restaurantId}")]
+        public IActionResult GetOrderWaiting(string restaurantId)
+        {
+            return repositoryOrders.GetOrderWaitingPartner(restaurantId);
+        }
+
         [HttpGet]
         [Route("getOrder_today/{restaurantId}")]
         public IActionResult GetOrderToday(string restaurantId)

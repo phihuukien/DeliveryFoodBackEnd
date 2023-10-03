@@ -6,6 +6,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.IRepositories
     public interface IRepositoryRestaurants
     {
         public IActionResult GetAllRestaurants();
+        public IActionResult GetAllRestaurantsByRate();
         public IActionResult GetOneRestaurantById(string id);
 
         public IActionResult GetAllRestaurantsAdmin(int page);

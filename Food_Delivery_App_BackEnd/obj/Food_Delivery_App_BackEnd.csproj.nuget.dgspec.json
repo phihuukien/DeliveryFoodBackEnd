@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[6.0.14, )"
             },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[8.0.0-rc.1.23421.29, )"
+            },
             "Microsoft.TestPlatform.ObjectModel": {
               "target": "Package",
               "version": "[17.7.2, )"
