@@ -11211,23 +11211,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\This PC\\.nuget\\packages\\": {},
+    "C:\\Users\\BT Soft\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
+      "projectUniqueName": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
       "projectName": "Food_Delivery_App_BackEnd",
-      "projectPath": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
-      "packagesPath": "C:\\Users\\This PC\\.nuget\\packages\\",
-      "outputPath": "E:\\react_native\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd\\obj\\",
+      "projectPath": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\Food_Delivery_App_BackEnd.csproj",
+      "packagesPath": "C:\\Users\\BT Soft\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\This PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\BT Soft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11235,6 +11238,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\BT Soft\\Documents\\Zalo Received Files\\Telerik_Reporting_17.1.23.606_NuGet_DEV": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11301,7 +11305,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
