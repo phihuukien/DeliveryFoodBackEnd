@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\Logo_Lang_Son.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\Logo_Lang_Son.png"
+    },
+    {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\baskinrobbins.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\baskinrobbins.png"
     },
@@ -61,8 +65,20 @@
       "PackagePath": "staticwebassets\\images\\gallery\\square\\crispyvegdoublepatty.png"
     },
     {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\db0eff38773fb161e82e.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\db0eff38773fb161e82e.jpg"
+    },
+    {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\dominospizza.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\dominospizza.png"
+    },
+    {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\f4baa1ae846e42301b7f.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\f4baa1ae846e42301b7f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\ffa2e9b3492f8d71d43e.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\ffa2e9b3492f8d71d43e.jpg"
     },
     {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\fries.png",
@@ -99,6 +115,10 @@
     {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\kfc.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\kfc.png"
+    },
+    {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\makeup2_by_wlop_dfwt89u-414w-2x.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\makeup2_by_wlop_dfwt89u-414w-2x.jpg"
     },
     {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\margherita.png",
