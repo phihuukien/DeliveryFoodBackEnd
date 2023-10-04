@@ -36,6 +36,7 @@ namespace Food_Delivery_App_BackEnd.Models.DataModels
         [BsonElement("username")]
         public string? Username { get; set; }
 
+
         [BsonElement("categories")]
         public List<string> Categories { get; set; }
 
