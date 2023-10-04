@@ -39,10 +39,8 @@ namespace Food_Delivery_App_BackEnd.Util
             this._context = _context;
             this.config = config;
         }
-
-       
-
-
+     
+      
         public string CreateToken(Users user)
         {
             var key = config["Jwt:Key"];

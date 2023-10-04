@@ -159,7 +159,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             try
             {
                 var response = _context.Orders.Aggregate()
-                                         .Match(x => x.Username == username && x.DeliveringStatus != 5)
+                                         .Match(x => x.Username == username && x.DeliveringStatus < 5)
                                          .Lookup("restaurants", "restaurantId", "_id", "restaurant")
                                          .Sort("{dateCreated:-1}")
                                          .ToList();
@@ -207,7 +207,10 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             {
                 return new JsonResult(new { message = ex.Message, Status = false });
             }
+
         }
+
+      
 
         public IActionResult GetOrderDetail(string restaurantId, string orderId)
         {
