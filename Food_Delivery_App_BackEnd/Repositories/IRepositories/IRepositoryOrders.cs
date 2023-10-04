@@ -1,5 +1,6 @@
 ﻿
 using Food_Delivery_App_BackEnd.ModelDTO;
+using Food_Delivery_App_BackEnd.ModelDTO.Request;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Food_Delivery_App_BackEnd.Repositories.IRepositories
@@ -27,8 +28,9 @@ namespace Food_Delivery_App_BackEnd.Repositories.IRepositories
         public IActionResult UpdateDeliveringStatus(int status, string orderId);
         public IActionResult GetOrderDetail(string restaurantId, string orderId);
         public IActionResult GetOrderDetailForShiper(string orderId);
-        public IActionResult CancelDetail();
+        public IActionResult CancelOrder(RequestCancel requestCancel);
 
         public IActionResult GetOrderDelivering();
+        public IActionResult DeleteOrder(string OrderId);
     }
 }
