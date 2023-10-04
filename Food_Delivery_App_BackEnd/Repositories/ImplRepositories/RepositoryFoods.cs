@@ -188,7 +188,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                 }
 
                 var filter = Builders<Foods>.Filter.Eq(f => f.Id, food.Id);
-                var update = Builders<Foods>.Update.Set("image", image)
+                var update = Builders<Foods>.Update.Set("image", image).Set("status",food.Status)
                    .Set("name", food.Name).Set("price", food.Price).Set("category", food.Category).Set("description", food.Description).Set("ingredients", food.Ingredients);
                 // xử lý ảnh
                 _context.Foods.UpdateOne(filter,update);
