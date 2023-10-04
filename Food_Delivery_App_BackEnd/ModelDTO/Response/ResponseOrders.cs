@@ -15,6 +15,9 @@ namespace Food_Delivery_App_BackEnd.ModelDTO.Response
         [BsonElement("restaurantId")]
         public string RestaurantId { get; set; } = String.Empty;
 
+        [BsonElement("orderCode")]
+        public string OrderCode { get; set; } = String.Empty;
+
         [BsonElement("quantity")]
         public int Quantity { get; set; }
 
@@ -37,6 +40,9 @@ namespace Food_Delivery_App_BackEnd.ModelDTO.Response
         [BsonElement("priceTotal")]
         public float PriceTotal { get; set; }
 
+        [BsonElement("deliveringStatus")]
+        public int DeliveringStatus { get; set; }
+
         [BsonElement("status")]
         public int Status { get; set; } = 1;
 
@@ -47,7 +53,10 @@ namespace Food_Delivery_App_BackEnd.ModelDTO.Response
         [BsonElement("restaurant")]
         public List<Restaurants>? Restaurant { get; set; }
 
+        [BsonElement("user")]
+        public List<Users>? User { get; set; }
 
 
-    }
+
+        }
 }

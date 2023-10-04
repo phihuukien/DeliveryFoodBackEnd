@@ -14,15 +14,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSignalR();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowOrigins",
         builder =>
         {
-            builder.AllowAnyOrigin();
-            builder.AllowAnyHeader();
-            builder.AllowAnyMethod();
+            builder.WithOrigins("http://localhost:4200")
+             .AllowAnyHeader()
+             .AllowAnyMethod()
+             .AllowCredentials();
         });
 });
 
@@ -36,6 +38,8 @@ builder.Services.AddScoped<IRepositoryRestaurants, RepositoryRestaurants>();
 builder.Services.AddScoped<IRepositoryFoods, RepositoryFoods>();
 builder.Services.AddScoped<IRepositoryBookMarks, RepositoryBookMarks>();
 builder.Services.AddScoped<IRepositoryOrders, RepositoryOrders>();
+builder.Services.AddScoped<IRepositoryTags, RepositoryTags>();
+builder.Services.AddScoped<IRepositoryCategoriesRestaurants, RepositoryCategoriesRestaurants>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
            .AddJwtBearer(options =>
@@ -75,5 +79,6 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.UseStaticFiles();
 app.MapControllers();
+app.MapHub<ChatHub>("/chatHub");
 
 app.Run();
