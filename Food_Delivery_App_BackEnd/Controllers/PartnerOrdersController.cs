@@ -20,13 +20,6 @@ namespace Food_Delivery_App_BackEnd.Controllers
         
         }
         [HttpGet]
-        [Route("test")]
-        public async Task<IActionResult> testSigNal()
-        {
-
-            return repositoryOrders.CancelDetail();
-        }
-        [HttpGet]
         [Route("get-order-pending/{restaurantId}")]
         public IActionResult GetOrderPending(string restaurantId)
         {

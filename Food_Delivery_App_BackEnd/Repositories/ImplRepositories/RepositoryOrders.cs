@@ -5,12 +5,14 @@ using Food_Delivery_App_BackEnd.Models.BusinessModels;
 using Food_Delivery_App_BackEnd.Models.DataModels;
 using Food_Delivery_App_BackEnd.Repositories.IRepositories;
 using Food_Delivery_App_BackEnd.Util;
+using Microsoft.AspNetCore.DataProtection.KeyManagement;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
 using System.ComponentModel;
+using System.Diagnostics.Metrics;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
 using static MongoDB.Driver.WriteConcern;
@@ -28,10 +30,59 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             _hubContext = hubContext;
         }
 
-        public IActionResult CancelDetail()
+        public IActionResult CancelOrder(RequestCancel requestCancel)
         {
-             _hubContext.Clients.All.SendAsync("ReceiveMessageFromMobile", "kien");
-            return new JsonResult(new { Message = "ff", Status = false }); ;
+            try
+            {
+                var order = _context.Orders.Find(x => x.Id == requestCancel.OrderId).FirstOrDefault();
+                if (order != null)
+                {
+
+                    var filter = Builders<Orders>.Filter
+                        .Eq(order => order.Id, requestCancel.OrderId);
+                    var update = Builders<Orders>.Update
+                        .Set(Orders => Orders.Status, 5)
+                         .Set(Orders => Orders.DeliveringStatus, 6)
+                         .Set(Orders => Orders.Note, requestCancel.Reason); ;
+
+                    _context.Orders.UpdateOne(filter, update);
+                    _hubContext.Clients.All.SendAsync("ReceiveMessageFromMobile", "web nhan");
+                    _hubContext.Clients.All.SendAsync("ReceiveMessageFromWeb", "mobile nhan");
+                    _hubContext.Clients.All.SendAsync("SendStutusToMobileForShipper", "mobile nhan");
+                    return new JsonResult(new { Message = "Successfly", Status = true });
+                }
+                return new JsonResult(new { Message = "failed", Status = false });
+
+            }
+            catch (Exception ex)
+            {
+
+                return new JsonResult(new { Message = "ff", Status = false });
+            }
+        }
+
+        public IActionResult DeleteOrder(string OrderId)
+        {
+            try
+            {
+                var order = _context.Orders.Find(x => x.Id == OrderId).FirstOrDefault();
+                if (order != null)
+                {
+                    _context.OrderDetails.DeleteMany(x => x.OrderId == order.Id);
+
+                    _context.Orders.DeleteOne(x => x.Id == order.Id);
+                    return new JsonResult(new { Message = "success", Status = true });
+                }
+                else
+                {
+                    return new JsonResult(new { Message = "not found order", Status = true });
+                }
+            }
+            catch (Exception ex)
+            {
+                return new JsonResult(new { Message = ex.Message, Status = false });
+            }
+          
         }
 
         public IActionResult GetOrderAll(string restaurantId,
@@ -224,7 +275,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
         {
 
             var response = _context.Orders.Aggregate()
-                                          .Match(x => x.Username == username && x.DeliveringStatus == 5)
+                                          .Match(x => x.Username == username && (x.DeliveringStatus == 5 || x.DeliveringStatus == 6))
                                           .Lookup("restaurants", "restaurantId", "_id", "restaurant")
                                           .Sort("{dateCreated:-1}")
                                           .ToList();
@@ -255,7 +306,8 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             var orderPending = orderToday.Where(x => x.Status == (int)Status.PENDING).ToList();
             var orderWaiting = orderToday.Where(x => x.Status == (int)Status.WAITING).ToList();
             var orderCancel = orderToday.Where(x => x.Status == (int)Status.Cancel).ToList();
-            var earnings = orderToday.Sum(x => x.PriceTotal);
+
+            var earnings = orderToday.Where(x=>x.Status==5).Sum(x => x.PriceTotal);
             var orderFinish = orderToday.Where(x => x.Status == (int)Status.Finish).Count();
 
             var responseDashboard = new ResponseDashboard();
