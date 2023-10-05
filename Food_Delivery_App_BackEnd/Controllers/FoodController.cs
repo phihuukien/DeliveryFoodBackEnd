@@ -1,4 +1,5 @@
 ﻿using Food_Delivery_App_BackEnd.Models.DataModels;
+using Food_Delivery_App_BackEnd.ModelDTO.Request;
 using Food_Delivery_App_BackEnd.Repositories.IRepositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -18,9 +19,9 @@ namespace Food_Delivery_App_BackEnd.Controllers
 
         [HttpGet]
         [Route("getAllFoods/{restaurantId}")]
-        public IActionResult GetAllFoodByRestaurantId(string restaurantId)
+        public IActionResult GetAllFoodByRestaurantId(string restaurantId,int page, int limit, string? textsearch)
         {
-            return repositoryFoods.GetAllFoodByRestaurantId(restaurantId);
+            return repositoryFoods.GetAllFoodByRestaurantId(restaurantId,page,limit,textsearch);
         }
 
         [HttpGet]
@@ -40,16 +41,25 @@ namespace Food_Delivery_App_BackEnd.Controllers
 
         [HttpPost]
         [Route("addFood")]
-        public IActionResult AddFood([FromBody] Foods food)
+        public IActionResult AddFood([FromForm] RequestFood food)
         {
+
             return repositoryFoods.AddFood(food);
         }
-
         [HttpPost]
+        [Route("updateFood")]
+        public IActionResult UpdateFood([FromForm] RequestFood food)
+        {
+
+            return repositoryFoods.UpdateFood(food);
+        }
+
+        [HttpDelete]
         [Route("deleteFood/{id}")]
         public IActionResult DeleteFood(String id)
         {
             return repositoryFoods.DelelteFood(id);
         }
+
     }
 }

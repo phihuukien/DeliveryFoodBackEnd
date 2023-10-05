@@ -16,5 +16,7 @@ namespace Food_Delivery_App_BackEnd.Models.DataModels
 
         [BsonElement("name")]
         public string Name { get; set; } = String.Empty;
+        [BsonElement("status")]
+        public int Status { get; set; }
     }
 }

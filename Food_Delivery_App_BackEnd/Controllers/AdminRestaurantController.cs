@@ -1,4 +1,5 @@
-﻿using Food_Delivery_App_BackEnd.Repositories.IRepositories;
+﻿using Food_Delivery_App_BackEnd.Models.DataModels;
+using Food_Delivery_App_BackEnd.Repositories.IRepositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -28,6 +29,13 @@ namespace Food_Delivery_App_BackEnd.Controllers
         public IActionResult GetRestaurantsByUsername(string username)
         {
             return repositoryRestaurants.GetRestaurantsByUsernamePartner(username);
+        }
+
+        [HttpGet]
+        [Route("PagingRestaurants/{username}")]
+        public IActionResult PagingRestaurantsByUsername(string username, int limit, string? textSearch, int page)
+        {
+            return repositoryRestaurants.PagingRestaurantsByUsername(username, limit, textSearch, page);
         }
     }
 }

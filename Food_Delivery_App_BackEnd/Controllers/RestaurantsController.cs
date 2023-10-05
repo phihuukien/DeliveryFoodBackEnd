@@ -1,4 +1,5 @@
-﻿using Food_Delivery_App_BackEnd.Repositories.IRepositories;
+﻿using Food_Delivery_App_BackEnd.Models.DataModels;
+using Food_Delivery_App_BackEnd.Repositories.IRepositories;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -31,5 +32,33 @@ namespace Food_Delivery_App_BackEnd.Controllers
         {
             return repositoryRestaurants.GetOneRestaurantById(restaurantId);
         }
+
+        [HttpGet]
+        [Route("getResById/{restaurantId}")]
+        public IActionResult GetRestaurantById(string restaurantId)
+        {
+            return repositoryRestaurants.GetRestaurantById(restaurantId);
+        }
+
+        [HttpGet]
+        [Route("restaurant/{username}")]
+        public IActionResult GetRestaurantsByUsernamePartner(string username)
+        {
+            return repositoryRestaurants.GetRestaurantsByUsernamePartner(username);
+        }
+
+        [HttpPost]
+        [Route("add-restaurant")]
+        public IActionResult AddRestaurant([FromForm] ResquestRestaurant restaurant)
+        {
+            return repositoryRestaurants.AddRestaurant(restaurant);
+        }
+
+        [HttpPost]
+        [Route("update-restaurant")]
+        public IActionResult UpdateRestaurant([FromForm] ResquestRestaurant restaurant)
+        {
+            return repositoryRestaurants.UpdateRestaurant(restaurant);
+        }         
     }
 }
