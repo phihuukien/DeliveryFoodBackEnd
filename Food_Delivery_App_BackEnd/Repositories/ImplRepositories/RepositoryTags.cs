@@ -1,9 +1,16 @@
-﻿using Food_Delivery_App_BackEnd.Models.BusinessModels;
+﻿using Food_Delivery_App_BackEnd.ModelDTO;
+using Food_Delivery_App_BackEnd.Models.BusinessModels;
 using Food_Delivery_App_BackEnd.Models.DataModels;
 using Food_Delivery_App_BackEnd.Repositories.IRepositories;
 using Food_Delivery_App_BackEnd.Util;
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
+using MongoDB.Driver.Core.Bindings;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+
 
 namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
 {
@@ -13,7 +20,14 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
         public RepositoryTags(FoodDeliveryAppDbContext _context)
         {
             this._context = _context;
+
         }
+
+        public IActionResult GetAll()
+        {
+            throw new NotImplementedException();
+        }
+
         public IActionResult GetAllTags()
         {
             try
@@ -27,11 +41,12 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                 {
                     return new JsonResult(new { Message = "No tags found", Status = false });
                 }
-            }
+                }
             catch (Exception ex)
-            {
+                {
                 return new JsonResult(new { Message = ex.Message, Status = false });
             }
+
         }
     }
 }

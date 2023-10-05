@@ -5,6 +5,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.IRepositories
 {
     public interface IRepositoryTags
     {
+        public IActionResult GetAll();
         public IActionResult GetAllTags();
     }
 }

@@ -31,7 +31,7 @@ namespace Food_Delivery_App_BackEnd.Models.DataModels
         public Int32 Times { get; set; }
 
         [BsonElement("images")]
-        public Object Images { get; set; }
+        public Object? Images { get; set; }
 
         [BsonElement("username")]
         public string? Username { get; set; }

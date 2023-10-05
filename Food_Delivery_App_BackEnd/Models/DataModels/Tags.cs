@@ -3,6 +3,7 @@ using MongoDB.Bson;
 
 namespace Food_Delivery_App_BackEnd.Models.DataModels
 {
+    [BsonIgnoreExtraElements]
     public class Tags
     {
         [BsonId]
@@ -10,11 +11,11 @@ namespace Food_Delivery_App_BackEnd.Models.DataModels
         public string Id { get; set; } = String.Empty;
 
         [BsonElement("name")]
-        public string Name { get; set; }
+        public string Name { get; set; } = String.Empty;
 
         [BsonElement("status")]
         public int Status { get; set; }
         [BsonElement("image")]
-        public string Image { get; set; }
+        public string Image { get; set; } = String.Empty;
     }
 }
