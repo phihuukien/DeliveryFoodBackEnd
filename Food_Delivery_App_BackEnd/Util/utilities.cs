@@ -19,9 +19,8 @@ namespace Food_Delivery_App_BackEnd.Util
         PENDING = 1,
         WAITING = 2,
         ACCEPTING = 3,
-        DELIVERING = 4,
-        Finish = 5,
-        Cancel = 6,
+        Finish = 4,
+        Cancel = 5,
 
     }
     public enum StatusFood
@@ -40,10 +39,8 @@ namespace Food_Delivery_App_BackEnd.Util
             this._context = _context;
             this.config = config;
         }
-
-       
-
-
+     
+      
         public string CreateToken(Users user)
         {
             var key = config["Jwt:Key"];
