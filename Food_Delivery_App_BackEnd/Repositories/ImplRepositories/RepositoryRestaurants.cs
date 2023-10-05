@@ -1,9 +1,11 @@
 ﻿using Food_Delivery_App_BackEnd.ModelDTO;
+using Food_Delivery_App_BackEnd.ModelDTO.Request;
 using Food_Delivery_App_BackEnd.Models.BusinessModels;
 using Food_Delivery_App_BackEnd.Models.DataModels;
 using Food_Delivery_App_BackEnd.Repositories.IRepositories;
 using Humanizer;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
@@ -25,11 +27,78 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
 
         }
 
-        public IActionResult AddRestaurant(Restaurants restaurants)
+        public IActionResult AddRestaurant(ResquestRestaurant restaurants)
         {
             try
             {
-                _context.Restaurants.InsertOne(restaurants);
+                //string input = "Hello,World,How,Are,You";
+                //char separator = ',';
+                //string[] result = input.Split(separator);
+                string[] result = restaurants.Tags[0].Split(',');
+                var d = result.ToList();
+                var logo = "";
+                var poster = "";
+                var cover = "";
+                //anh logo
+                if (restaurants.Logo != null && restaurants.Logo.Length > 0)
+                {
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "logo", restaurants.Logo.FileName);
+                    using (var stream = System.IO.File.Create(path))
+                    {
+                        restaurants.Logo.CopyTo(stream);
+                    }
+                    logo = System.IO.Path.GetFileNameWithoutExtension(restaurants.Logo.FileName);
+                }
+                else
+                {
+                    logo = "";
+
+                }
+
+
+
+                if (restaurants.Poster != null && restaurants.Poster.Length > 0)
+                {
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "poster", restaurants.Poster.FileName);
+                    using (var stream = System.IO.File.Create(path))
+                    {
+                        restaurants.Poster.CopyTo(stream);
+                    }
+                    poster = System.IO.Path.GetFileNameWithoutExtension(restaurants.Poster.FileName);
+                }
+                else
+                {
+                    poster = "";
+
+                }
+
+
+                if (restaurants.Cover != null && restaurants.Cover.Length > 0)
+                {
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "gallery", "square", restaurants.Cover.FileName);
+                    using (var stream = System.IO.File.Create(path))
+                    {
+                        restaurants.Poster.CopyTo(stream);
+                    }
+                    cover = System.IO.Path.GetFileNameWithoutExtension(restaurants.Poster.FileName);
+                }
+                else
+                {
+                    cover = "";
+
+                }
+
+
+
+                var img = new ImageR
+                {
+                    Logo = logo,
+                    Poster = poster,
+                    Cover = cover
+                };
+
+                var r = new Restaurants {Images=img, Name = restaurants.Name , Distance = restaurants.Distance,Tags= d, Location=restaurants.Location,Times=restaurants.Times,Type=restaurants.Type,Username=restaurants.Username};
+                _context.Restaurants.InsertOne(r);
                 return new JsonResult(new { status = true, Message = "Restaurants add successfully" });
 
             }
@@ -101,6 +170,30 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             catch (Exception ex)
             {
                 return new JsonResult(new { Status = false, Message = "Restaurant finding failed", error= "Restaurant finding failed : "+ ex.Message});
+
+            }
+        }
+
+        public IActionResult GetRestaurantById(string id)
+        {
+            try
+            {
+                var restaurant = _context.Restaurants.Find(r => r.Id == id).FirstOrDefault();
+
+                if (restaurant != null)
+                {
+                    return new JsonResult(new { Status = true, Message = "Restaurant found successfully", Data = restaurant });
+                }
+                else
+                {
+                    return new JsonResult(new { Status = false, Message = "No restaurant found" });
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                return new JsonResult(new { Status = false, Message = "Restaurant finding failed", error = "Restaurant finding failed : " + ex.Message });
 
             }
         }

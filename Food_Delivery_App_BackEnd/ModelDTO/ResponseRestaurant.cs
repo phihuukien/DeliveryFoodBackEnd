@@ -24,10 +24,10 @@ namespace Food_Delivery_App_BackEnd.ModelDTO
         public string Location { get; set; }
 
         [BsonElement("distance")]
-        public Int32 Distance { get; set; }
+        public string Distance { get; set; }
 
         [BsonElement("time")]
-        public Int32 Times { get; set; }
+        public string Times { get; set; }
 
         [BsonElement("images")]
         public Object Images { get; set; }

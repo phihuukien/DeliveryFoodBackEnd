@@ -34,6 +34,13 @@ namespace Food_Delivery_App_BackEnd.Controllers
         }
 
         [HttpGet]
+        [Route("getResById/{restaurantId}")]
+        public IActionResult GetRestaurantById(string restaurantId)
+        {
+            return repositoryRestaurants.GetRestaurantById(restaurantId);
+        }
+
+        [HttpGet]
         [Route("restaurant/{username}")]
         public IActionResult GetRestaurantsByUsernamePartner(string username)
         {
@@ -41,7 +48,7 @@ namespace Food_Delivery_App_BackEnd.Controllers
         }
         [HttpPost]
         [Route("add-restaurant")]
-        public IActionResult AddRestaurant([FromBody] Restaurants restaurant)
+        public IActionResult AddRestaurant([FromForm] ResquestRestaurant restaurant)
         {
             return repositoryRestaurants.AddRestaurant(restaurant);
         }
