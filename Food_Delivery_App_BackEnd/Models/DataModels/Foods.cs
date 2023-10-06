@@ -20,7 +20,7 @@ namespace Food_Delivery_App_BackEnd.Models.DataModels
         public string Name { get; set; } = String.Empty;
 
         [BsonElement("price")]
-        public Int32 Price { get; set; }
+        public Int32? Price { get; set; }
 
         [BsonElement("image")]
         public string Image { get; set; } = String.Empty;

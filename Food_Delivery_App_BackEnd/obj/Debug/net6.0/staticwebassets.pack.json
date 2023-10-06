@@ -1,6 +1,18 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\Logo_Lang_Son.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\Logo_Lang_Son.png"
+    },
+    {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\anh-PNG.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\anh-PNG.png"
+    },
+    {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\anh-doremon-dang-yeu_033146112.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\anh-doremon-dang-yeu_033146112.png"
+    },
+    {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\baskinrobbins.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\baskinrobbins.png"
     },
@@ -53,6 +65,10 @@
       "PackagePath": "staticwebassets\\images\\gallery\\square\\coldcoffee.png"
     },
     {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\conect.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\conect.png"
+    },
+    {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\crispyvegburger.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\crispyvegburger.png"
     },
@@ -61,8 +77,24 @@
       "PackagePath": "staticwebassets\\images\\gallery\\square\\crispyvegdoublepatty.png"
     },
     {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\db0eff38773fb161e82e.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\db0eff38773fb161e82e.jpg"
+    },
+    {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\dominospizza.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\dominospizza.png"
+    },
+    {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\doraemon-4553920_640.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\doraemon-4553920_640.png"
+    },
+    {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\f4baa1ae846e42301b7f.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\f4baa1ae846e42301b7f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\ffa2e9b3492f8d71d43e.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\ffa2e9b3492f8d71d43e.jpg"
     },
     {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\fries.png",
@@ -99,6 +131,10 @@
     {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\kfc.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\kfc.png"
+    },
+    {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\makeup2_by_wlop_dfwt89u-414w-2x.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\makeup2_by_wlop_dfwt89u-414w-2x.jpg"
     },
     {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\margherita.png",
@@ -201,6 +237,14 @@
       "PackagePath": "staticwebassets\\images\\gallery\\square\\zestychickenpocket.png"
     },
     {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\Logo_Lang_Son.png",
+      "PackagePath": "staticwebassets\\images\\logo\\Logo_Lang_Son.png"
+    },
+    {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\anh-PNG.png",
+      "PackagePath": "staticwebassets\\images\\logo\\anh-PNG.png"
+    },
+    {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\baskinrobbins.png",
       "PackagePath": "staticwebassets\\images\\logo\\baskinrobbins.png"
     },
@@ -209,8 +253,16 @@
       "PackagePath": "staticwebassets\\images\\logo\\burgerking.png"
     },
     {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\db0eff38773fb161e82e.jpg",
+      "PackagePath": "staticwebassets\\images\\logo\\db0eff38773fb161e82e.jpg"
+    },
+    {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\dominos.png",
       "PackagePath": "staticwebassets\\images\\logo\\dominos.png"
+    },
+    {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\doraemon-4553920_640.png",
+      "PackagePath": "staticwebassets\\images\\logo\\doraemon-4553920_640.png"
     },
     {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\kfc.png",
@@ -233,6 +285,14 @@
       "PackagePath": "staticwebassets\\images\\logo\\subway.png"
     },
     {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\anh-PNG.png",
+      "PackagePath": "staticwebassets\\images\\poster\\anh-PNG.png"
+    },
+    {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\anh-doremon-dang-yeu_033146112.png",
+      "PackagePath": "staticwebassets\\images\\poster\\anh-doremon-dang-yeu_033146112.png"
+    },
+    {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\baskinrobbins.png",
       "PackagePath": "staticwebassets\\images\\poster\\baskinrobbins.png"
     },
@@ -245,8 +305,20 @@
       "PackagePath": "staticwebassets\\images\\poster\\dominos.png"
     },
     {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\f4baa1ae846e42301b7f.jpg",
+      "PackagePath": "staticwebassets\\images\\poster\\f4baa1ae846e42301b7f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\ffa2e9b3492f8d71d43e.jpg",
+      "PackagePath": "staticwebassets\\images\\poster\\ffa2e9b3492f8d71d43e.jpg"
+    },
+    {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\kfc.png",
       "PackagePath": "staticwebassets\\images\\poster\\kfc.png"
+    },
+    {
+      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\mart.png",
+      "PackagePath": "staticwebassets\\images\\poster\\mart.png"
     },
     {
       "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\mcdonalds.png",
