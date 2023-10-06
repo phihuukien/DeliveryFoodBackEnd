@@ -34,16 +34,31 @@ namespace Food_Delivery_App_BackEnd.Controllers
         }
 
         [HttpGet]
+        [Route("getResById/{restaurantId}")]
+        public IActionResult GetRestaurantById(string restaurantId)
+        {
+            return repositoryRestaurants.GetRestaurantById(restaurantId);
+        }
+
+        [HttpGet]
         [Route("restaurant/{username}")]
         public IActionResult GetRestaurantsByUsernamePartner(string username)
         {
             return repositoryRestaurants.GetRestaurantsByUsernamePartner(username);
         }
+
         [HttpPost]
         [Route("add-restaurant")]
-        public IActionResult AddRestaurant([FromBody] Restaurants restaurant)
+        public IActionResult AddRestaurant([FromForm] ResquestRestaurant restaurant)
         {
             return repositoryRestaurants.AddRestaurant(restaurant);
         }
+
+        [HttpPost]
+        [Route("update-restaurant")]
+        public IActionResult UpdateRestaurant([FromForm] ResquestRestaurant restaurant)
+        {
+            return repositoryRestaurants.UpdateRestaurant(restaurant);
+        }         
     }
 }

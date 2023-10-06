@@ -19,11 +19,31 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
 
         }
 
-        public IActionResult AddFood(Foods food)
+        public IActionResult AddFood(RequestFood food)
         {
             try
             {
-                _context.Foods.InsertOne(food);
+                var image = "";
+
+                if (food.Image != null && food.Image.Length > 0)
+                {
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "gallery", "square", food.Image.FileName);
+                    using (var stream = System.IO.File.Create(path))
+                    {
+                        food.Image.CopyTo(stream);
+                    }
+                    image = System.IO.Path.GetFileNameWithoutExtension(food.Image.FileName);
+                }
+                else
+                {
+                    image = "";
+
+                }
+                var f = new Foods { Image = image, Category = food.Category, RestaurantId = food.RestaurantId, Ingredients = food.Ingredients, Name = food.Name, Price = food.Price, Description = food.Description };
+                var update = Builders<Foods>.Update.Set("image", image)
+                   .Set("name", food.Name).Set("price", food.Price).Set("category", food.Category).Set("description", food.Description).Set("ingredients", food.Ingredients).Set("restaurantId", food.RestaurantId);
+                // xử lý ảnh
+                _context.Foods.InsertOne(f);
                 return new JsonResult(new { status = true, Message = "Food add successfully" });
 
             }
@@ -38,7 +58,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
         {
             try
             {
-                _context.Foods.DeleteOne(id);
+                _context.Foods.DeleteOne(x => x.Id == id);
                 return new JsonResult(new { status = true, Message = "Delete food successfully" });
 
             }
@@ -49,7 +69,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             }
         }
 
-        public JsonResult GetAllFoodByRestaurantId(string restaurantId,int page,int limit, string? textsearch)
+        public JsonResult GetAllFoodByRestaurantId(string restaurantId, int page, int limit, string? textsearch)
         {
             try
             {
@@ -61,7 +81,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                 }
 
                 var find = _context.Foods.Find(filter);
-                
+
                 int skip = limit * (page - 1);
                 var total_document = find.CountDocuments();
                 var total_Page = total_document % limit == 0 ? total_document / limit : total_document / limit + 1;
@@ -146,9 +166,40 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
 
         }
 
-        public IActionResult UpdateFood(Foods food)
+        public IActionResult UpdateFood(RequestFood food)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var findfood = _context.Foods.Find(x => x.Id == food.Id).FirstOrDefault();
+                if (findfood == null)
+                {
+                    return new JsonResult(new { status = true, Message = "Food Null" });
+                }
+                   var image = findfood?.Image;
+
+                if (food.Image != null && food.Image.Length > 0)
+                {
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "gallery", "square", food.Image.FileName);
+                    using (var stream = System.IO.File.Create(path))
+                    {
+                        food.Image.CopyTo(stream);
+                    }
+                    image = System.IO.Path.GetFileNameWithoutExtension(food.Image.FileName);
+                }
+
+                var filter = Builders<Foods>.Filter.Eq(f => f.Id, food.Id);
+                var update = Builders<Foods>.Update.Set("image", image).Set("status",food.Status)
+                   .Set("name", food.Name).Set("price", food.Price).Set("category", food.Category).Set("description", food.Description).Set("ingredients", food.Ingredients);
+                // xử lý ảnh
+                _context.Foods.UpdateOne(filter,update);
+                return new JsonResult(new { status = true, Message = "Food update successfully" });
+
+            }
+            catch (Exception EX)
+            {
+
+                return new JsonResult(new { Status = false, Message = "Foods update failed", Error = "Foods add failed : " + EX.Message });
+            }
         }
     }
 }
