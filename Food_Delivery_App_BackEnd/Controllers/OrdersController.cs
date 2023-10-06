@@ -1,4 +1,5 @@
 ﻿using Food_Delivery_App_BackEnd.ModelDTO;
+using Food_Delivery_App_BackEnd.ModelDTO.Request;
 using Food_Delivery_App_BackEnd.Repositories.ImplRepositories;
 using Food_Delivery_App_BackEnd.Repositories.IRepositories;
 using Microsoft.AspNetCore.Authorization;
@@ -15,6 +16,20 @@ namespace Food_Delivery_App_BackEnd.Controllers
         public OrdersController(IRepositoryOrders repositoryOrders)
         {
             this.repositoryOrders = repositoryOrders;
+        }
+        [HttpPost]
+        [Route("cancel-order")]
+        [Authorize]
+        public IActionResult CancelOrder([FromBody] RequestCancel requestCancel )
+        {
+            return repositoryOrders.CancelOrder(requestCancel);
+        }
+        [HttpDelete]
+        [Route("delete-order/{id}")]
+        [Authorize]
+        public IActionResult DeleteOrder(string id)
+        {
+            return repositoryOrders.DeleteOrder(id);
         }
 
         [HttpPost]
