@@ -46,11 +46,19 @@ namespace Food_Delivery_App_BackEnd.Controllers
         {
             return repositoryRestaurants.GetRestaurantsByUsernamePartner(username);
         }
+
         [HttpPost]
         [Route("add-restaurant")]
         public IActionResult AddRestaurant([FromForm] ResquestRestaurant restaurant)
         {
             return repositoryRestaurants.AddRestaurant(restaurant);
         }
+
+        [HttpPost]
+        [Route("update-restaurant")]
+        public IActionResult UpdateRestaurant([FromForm] ResquestRestaurant restaurant)
+        {
+            return repositoryRestaurants.UpdateRestaurant(restaurant);
+        }         
     }
 }

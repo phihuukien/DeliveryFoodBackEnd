@@ -6,6 +6,7 @@ namespace Food_Delivery_App_BackEnd.Models.DataModels
 {
     public class ResquestRestaurant
     {
+        public string? Id { get; set; }
         public string? Name { get; set; }
 
         public string? Type { get; set; }

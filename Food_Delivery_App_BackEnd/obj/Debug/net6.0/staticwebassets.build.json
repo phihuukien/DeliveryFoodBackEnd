@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "snvdLus3Wa82JzzA5GbDx04pzGWlUzL0rNDBsH+i/fs=",
+  "Hash": "7odcNOz92vKXdAMkouX4gONyb6TqmY+fz6Re6HnYcMI=",
   "Source": "Food_Delivery_App_BackEnd",
   "BasePath": "_content/Food_Delivery_App_BackEnd",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\anh-doremon-dang-yeu_033146112.png",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/gallery/square/anh-doremon-dang-yeu_033146112.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\anh-doremon-dang-yeu_033146112.png"
+    },
+    {
+      "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\anh-PNG.png",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/gallery/square/anh-PNG.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\anh-PNG.png"
+    },
     {
       "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\baskinrobbins.png",
       "SourceId": "Food_Delivery_App_BackEnd",
@@ -100,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\coldcoffee.png"
+    },
+    {
+      "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\conect.png",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/gallery/square/conect.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\conect.png"
     },
     {
       "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\crispyvegburger.png",
@@ -304,6 +355,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\dominospizza.png"
+    },
+    {
+      "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\doraemon-4553920_640.png",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/gallery/square/doraemon-4553920_640.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\doraemon-4553920_640.png"
     },
     {
       "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\f4baa1ae846e42301b7f.jpg",
@@ -952,6 +1020,23 @@
       "OriginalItemSpec": "wwwroot\\images\\gallery\\square\\zestychickenpocket.png"
     },
     {
+      "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\anh-PNG.png",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/logo/anh-PNG.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo\\anh-PNG.png"
+    },
+    {
       "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\baskinrobbins.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
@@ -1018,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logo\\dominos.png"
+    },
+    {
+      "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\doraemon-4553920_640.png",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/logo/doraemon-4553920_640.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo\\doraemon-4553920_640.png"
     },
     {
       "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\kfc.png",
@@ -1122,6 +1224,40 @@
       "OriginalItemSpec": "wwwroot\\images\\logo\\subway.png"
     },
     {
+      "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\anh-doremon-dang-yeu_033146112.png",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/poster/anh-doremon-dang-yeu_033146112.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\poster\\anh-doremon-dang-yeu_033146112.png"
+    },
+    {
+      "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\anh-PNG.png",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/poster/anh-PNG.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\poster\\anh-PNG.png"
+    },
+    {
       "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\baskinrobbins.png",
       "SourceId": "Food_Delivery_App_BackEnd",
       "SourceType": "Discovered",
@@ -1222,6 +1358,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\poster\\kfc.png"
+    },
+    {
+      "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\mart.png",
+      "SourceId": "Food_Delivery_App_BackEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\",
+      "BasePath": "_content/Food_Delivery_App_BackEnd",
+      "RelativePath": "images/poster/mart.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\poster\\mart.png"
     },
     {
       "Identity": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\mcdonalds.png",

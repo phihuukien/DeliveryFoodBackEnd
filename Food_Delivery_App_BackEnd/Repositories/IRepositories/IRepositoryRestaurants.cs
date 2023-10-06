@@ -13,6 +13,6 @@ namespace Food_Delivery_App_BackEnd.Repositories.IRepositories
         public IActionResult GetRestaurantsByUsernamePartner(string username);
         public IActionResult PagingRestaurantsByUsername(string username, int limit, string? textSearch, int page);
         public IActionResult AddRestaurant(ResquestRestaurant restaurants);
-        public IActionResult UpdateRestaurant(Restaurants restaurants);
+        public IActionResult UpdateRestaurant(ResquestRestaurant restaurants);
     }
 }

@@ -78,9 +78,9 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                     var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "gallery", "square", restaurants.Cover.FileName);
                     using (var stream = System.IO.File.Create(path))
                     {
-                        restaurants.Poster.CopyTo(stream);
+                        restaurants.Cover.CopyTo(stream);
                     }
-                    cover = System.IO.Path.GetFileNameWithoutExtension(restaurants.Poster.FileName);
+                    cover = System.IO.Path.GetFileNameWithoutExtension(restaurants.Cover.FileName);
                 }
                 else
                 {
@@ -233,14 +233,91 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             return new JsonResult(new { Status = false, Message = "No restaurant found" });
         }
 
-        public IActionResult UpdateRestaurant(Restaurants restaurants)
+        public IActionResult UpdateRestaurant(ResquestRestaurant restaurants)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var findRes = _context.Restaurants.Find(x => x.Id == restaurants.Id).FirstOrDefault();
+                if(findRes == null)
+                {
+                    return new JsonResult(new { status = true, Message = "Restaurant not found" });
+                }
+                string[] tags = restaurants.Tags[0].Split(',');
+                string[] cates = restaurants.Categories[0].Split(',');
+                var logo = "";
+                var poster = "";
+                var cover = "";
+                //anh logo
+                if (restaurants.Logo != null && restaurants.Logo.Length > 0)
+                {
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "logo", restaurants.Logo.FileName);
+                    using (var stream = System.IO.File.Create(path))
+                    {
+                        restaurants.Logo.CopyTo(stream);
+                    }
+                    logo = System.IO.Path.GetFileNameWithoutExtension(restaurants.Logo.FileName);
+                }
+                else
+                {
+                    logo = findRes.Images.Logo;
+
+                }
+
+
+
+                if (restaurants.Poster != null && restaurants.Poster.Length > 0)
+                {
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "poster", restaurants.Poster.FileName);
+                    using (var stream = System.IO.File.Create(path))
+                    {
+                        restaurants.Poster.CopyTo(stream);
+                    }
+                    poster = System.IO.Path.GetFileNameWithoutExtension(restaurants.Poster.FileName);
+                }
+                else
+                {
+                    poster = findRes.Images.Poster;
+
+                }
+
+
+                if (restaurants.Cover != null && restaurants.Cover.Length > 0)
+                {
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "gallery", "square", restaurants.Cover.FileName);
+                    using (var stream = System.IO.File.Create(path))
+                    {
+                        restaurants.Cover.CopyTo(stream);
+                    }
+                    cover = System.IO.Path.GetFileNameWithoutExtension(restaurants.Cover.FileName);
+                }
+                else
+                {
+                    cover = findRes.Images.Cover;
+
+                }
+
+                var img = new ImageR
+                {
+                    Logo = logo,
+                    Poster = poster,
+                    Cover = cover
+                };
+                var filter = Builders<Restaurants>.Filter.Eq(r => r.Id, restaurants.Id);
+                var update = Builders<Restaurants>.Update.Set("name", restaurants.Name)
+                    .Set("images", img).Set("type", restaurants.Type)
+                    .Set("location", restaurants.Location).Set("distance", restaurants.Distance)
+                    .Set("times", restaurants.Times).Set("tags", tags.ToList()).Set("categories", cates.ToList());
+                _context.Restaurants.UpdateOne(filter,update);
+                return new JsonResult(new { status = true, Message = "Restaurants update successfully" });
+
+            }
+            catch (Exception EX)
+            {
+
+                return new JsonResult(new { Status = false, Message = "Restaurants update failed", Error = "Restaurants update failed : " + EX.Message });
+            }
         }
 
-        public IActionResult UpdateStatus(string id)
-        {
-            throw new NotImplementedException();
-        }
+     
     }
 }
