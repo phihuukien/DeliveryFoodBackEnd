@@ -15,7 +15,6 @@ using System.Text.RegularExpressions;
 
 namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
 {
-
     public class RepositoryRestaurants : IRepositoryRestaurants
     {
         FoodDeliveryAppDbContext _context;
@@ -128,6 +127,15 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                     }
                 }
                 var resultData = responseRestaurants.Where(x => x.Rate > 4.0).ToList();
+                if (resultData.Count<0)
+                {
+                    resultData = responseRestaurants.Where(x => x.Rate > 3.0).ToList();
+                    if (resultData.Count <0)
+                    {
+                        resultData = responseRestaurants.Where(x => x.Rate > 2.0).ToList();
+                    }
+                }
+
                 return new JsonResult(new { Message = "Successfully", Status = true, Data = resultData });
             }
             catch (Exception ex)

@@ -30,7 +30,7 @@ namespace Food_Delivery_App_BackEnd.Controllers
         {
             return Repository.InsertCategory(requestCategory);
         }
-        [HttpPut]
+        [HttpPost]
         [Route("update-category")]
         public IActionResult UpdateCategory([FromBody] RequestUpdateCategory requestCategory)
         {

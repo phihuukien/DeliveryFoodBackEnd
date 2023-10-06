@@ -5,6 +5,7 @@ using Food_Delivery_App_BackEnd.Repositories.IRepositories;
 using Food_Delivery_App_BackEnd.Util;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
+using System.Linq;
 
 namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
 {
@@ -122,8 +123,17 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                     if (requestCategory.Status == 1)
                     {
                         var restaurant = _context.Restaurants.Find(x => x.Id == requestCategory.RestaurantId).FirstOrDefault();
-                        var catego = restaurant.Categories;
-                        catego.Add(requestCategory.Name);
+                        var catego = restaurant.Categories.ToList();
+                        var ca = catego.IndexOf(requestCategory.UpdateName);
+                        if(ca > 0)
+                        {
+                            catego[ca] = requestCategory.Name;
+                        }
+                        else
+                        {
+                            catego.Add(requestCategory.Name);
+                        }
+                        
                         var filter = Builders<Restaurants>.Filter.Where(x => x.Id == requestCategory.RestaurantId);
                         var update = Builders<Restaurants>.Update
                             .Set(x => x.Categories, catego);
@@ -132,8 +142,9 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                     else if (requestCategory.Status == 2)
                     {
                         var restaurant = _context.Restaurants.Find(x => x.Id == requestCategory.RestaurantId).FirstOrDefault();
-                        var catego = restaurant.Categories;
-                        catego.Remove(requestCategory.Name);
+                        var catego = restaurant.Categories.ToList();
+                        catego.Remove(requestCategory.UpdateName);
+
                         var filter = Builders<Restaurants>.Filter.Where(x => x.Id == requestCategory.RestaurantId);
                         var update = Builders<Restaurants>.Update
                             .Set(x => x.Categories, catego);

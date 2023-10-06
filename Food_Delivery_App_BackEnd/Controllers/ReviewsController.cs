@@ -49,6 +49,21 @@ namespace Food_Delivery_App_BackEnd.Controllers
         }
 
         [HttpGet]
+        [Route("get-order-review")]
+        [Authorize]
+        public IActionResult GetOrderToReview()
+        {
+            if (HttpContext.Request.Headers.TryGetValue("Authorization", out var headerAuth))
+            {
+                var jwtToken = headerAuth.First().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)[1];
+                var jwt = new JwtSecurityTokenHandler().ReadJwtToken(jwtToken);
+                string username = jwt.Claims.First(c => c.Type == "name").Value;
+                return repositoryReviews.GetOrderToReview(username);
+            }
+            return BadRequest(new { status = false, Message = "jwt not found" });
+        }
+
+        [HttpGet]
         [Route("rating/{restaurantId}")]
         public IActionResult GetRating(string restaurantId)
         {

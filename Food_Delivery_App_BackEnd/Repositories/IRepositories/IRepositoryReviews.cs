@@ -12,5 +12,6 @@ namespace Food_Delivery_App_BackEnd.Repositories.IRepositories
         public IActionResult GetRating(string restaurantId);
         public IActionResult GetReviewByRestaurant(string restaurantId, string? sort_order, string? sort_orderBy, int page, string? from_date, string? to_date);
         public IActionResult DeleteReview(string reviewId);
+        public IActionResult GetOrderToReview(string username);
     }
 }

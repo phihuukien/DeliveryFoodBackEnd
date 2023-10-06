@@ -5,6 +5,7 @@
         public string Id { get; set; } = String.Empty;
         public string RestaurantId { get; set; } = String.Empty;
         public string Name { get; set; } = String.Empty;
+        public string UpdateName { get; set; } = String.Empty;
         public int Status { get; set; }
     }
 }

@@ -79,6 +79,27 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
             }
         }
 
+        public IActionResult GetOrderToReview(string username)
+        {
+
+            var response = _context.Orders.Aggregate()
+                                          .Match(x => x.Username == username && (x.DeliveringStatus == 5))
+                                          .Lookup("restaurants", "restaurantId", "_id", "restaurant")
+                                          .Sort("{dateCreated:-1}")
+                                          .ToList();
+            var ordersHistory = new List<ResponseOrders>();
+            foreach (var item in response)
+            {
+                ordersHistory.Add(BsonSerializer.Deserialize<ResponseOrders>(item));
+            }
+
+            if (ordersHistory.Count > 0)
+            {
+                return new JsonResult(new { Message = "Successfully", Status = true, Data = ordersHistory });
+            }
+            return new JsonResult(new { Message = "Not orders history", Status = false });
+        }
+
         public IActionResult GetOrderDetail(string orderId)
         {
             try
