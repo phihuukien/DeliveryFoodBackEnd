@@ -25,7 +25,27 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
 
         public IActionResult GetAll()
         {
-            throw new NotImplementedException();
+            try
+            {
+                var tags = _context.Tags.Find(Tag => true).ToList();
+                if (tags != null && tags.Count() > 0)
+                {
+                    return new JsonResult(new { Status = true, Message = "Tags found successfully", Data = tags });
+                }
+                else
+                {
+                    return new JsonResult(new { Status = false, Message = "No Tags found" });
+                }
+            }
+            catch (Exception ex)
+            {
+                return new JsonResult(new
+                {
+                    status = false,
+                    message = "Tags finding failed",
+                    error = "Tags finding failed: " + ex.Message
+                });
+            }
         }
 
         public IActionResult GetAllTags()
@@ -41,9 +61,9 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                 {
                     return new JsonResult(new { Message = "No tags found", Status = false });
                 }
-                }
+            }
             catch (Exception ex)
-                {
+            {
                 return new JsonResult(new { Message = ex.Message, Status = false });
             }
 

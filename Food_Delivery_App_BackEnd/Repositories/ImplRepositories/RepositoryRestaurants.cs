@@ -96,8 +96,8 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                     Poster = poster,
                     Cover = cover
                 };
-
-                var r = new Restaurants {Images=img, Name = restaurants.Name , Distance = restaurants.Distance,Tags= d, Location=restaurants.Location,Times=restaurants.Times,Type=restaurants.Type,Username=restaurants.Username};
+                List<string> categori = new List<string>();
+                var r = new Restaurants {Images=img, Categories= categori, Name = restaurants.Name , Distance = restaurants.Distance,Tags= d, Location=restaurants.Location,Times=restaurants.Times,Type=restaurants.Type,Username=restaurants.Username};
                 _context.Restaurants.InsertOne(r);
                 return new JsonResult(new { status = true, Message = "Restaurants add successfully" });
 
@@ -195,7 +195,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                         responseRestaurants.Add(resByRate);
                     }
                 }
-                var resultData = responseRestaurants.Where(x => x.Rate > 4.0).ToList();
+                var resultData = responseRestaurants.Where(x => x.Rate == 5.0).ToList();
                 if (resultData.Count<0)
                 {
                     resultData = responseRestaurants.Where(x => x.Rate > 3.0).ToList();
@@ -395,7 +395,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                 var update = Builders<Restaurants>.Update.Set("name", restaurants.Name)
                     .Set("images", img).Set("type", restaurants.Type)
                     .Set("location", restaurants.Location).Set("distance", restaurants.Distance)
-                    .Set("times", restaurants.Times).Set("tags", tags.ToList()).Set("categories", cates.ToList());
+                    .Set("time", restaurants.Times).Set("tags", tags.ToList()).Set("categories", cates.ToList());
                 _context.Restaurants.UpdateOne(filter,update);
                 return new JsonResult(new { status = true, Message = "Restaurants update successfully" });
 
