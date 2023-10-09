@@ -10,5 +10,6 @@ namespace Food_Delivery_App_BackEnd.Repositories.IRepositories
         public IActionResult GetCategoryById(string id);
         public IActionResult UpdateCategory(RequestUpdateCategory requestCategory);
         public IActionResult DeleteCategory(string id);
+        public IActionResult GetAll(String RestaurantsId);
     }
 }

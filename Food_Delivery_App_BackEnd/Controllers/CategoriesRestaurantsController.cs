@@ -43,5 +43,12 @@ namespace Food_Delivery_App_BackEnd.Controllers
         {
             return Repository.GetCategoryById(id);
         }
+
+        [HttpGet]
+        [Route("getAllCat/{restaurantId}")]
+        public IActionResult GetAll(string restaurantId)
+        {
+            return Repository.GetAll(restaurantId);
+        }
     }
 }

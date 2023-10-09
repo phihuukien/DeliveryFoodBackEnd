@@ -18,6 +18,33 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
 
         }
 
+        public IActionResult GetAll(string RestaurantsId)
+        {
+
+            try
+            {
+                var category = _context.CategoriesRestaurants.Find(x => x.RestaurantId == RestaurantsId).ToList();
+                if (category != null && category.Count() > 0)
+                {
+                    return new JsonResult(new { Status = true, Message = "CategoriesRestaurants found successfully", Data = category });
+                }
+                else
+                {
+                    return new JsonResult(new { Status = false, Message = "No CategoriesRestaurants found" });
+                }
+            }
+            catch (Exception ex)
+            {
+                return new JsonResult(new
+                {
+                    status = false,
+                    message = "CategoriesRestaurants finding failed",
+                    error = "CategoriesRestaurants finding failed: " + ex.Message
+                });
+            }
+        }
+
+
         public IActionResult DeleteCategory(string id)
         {
             throw new NotImplementedException();

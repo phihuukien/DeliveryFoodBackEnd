@@ -22,6 +22,12 @@ namespace Food_Delivery_App_BackEnd.Controllers
         }
 
         [HttpGet]
+        [Route("tags")]
+        public IActionResult Index()
+        {
+            return repositoryTags.GetAll();
+        }
+        [HttpGet]
         [Route("getAll")]
         public IActionResult GetAllTags()
         {
