@@ -27,8 +27,10 @@ namespace Food_Delivery_App_BackEnd.Models.BusinessModels
         public IMongoCollection<Cart> Cart => Connection.GetCollection<Cart>("carts");
         public IMongoCollection<Orders> Orders => Connection.GetCollection<Orders>("orders");
         public IMongoCollection<OrderDetails> OrderDetails => Connection.GetCollection<OrderDetails>("orderdetails");
-        public IMongoCollection<CategoriesRestaurants> CategoriesRestaurants => Connection.GetCollection<CategoriesRestaurants>("categories_restaurants");
+        public IMongoCollection<Reviews> Reviews => Connection.GetCollection<Reviews>("reviews");
         public IMongoCollection<Tags> Tags => Connection.GetCollection<Tags>("tags");
+        public IMongoCollection<CategoriesRestaurants> CategoriesRestaurants => Connection.GetCollection<CategoriesRestaurants>("categories_restaurants");
+      
 
     }
 }

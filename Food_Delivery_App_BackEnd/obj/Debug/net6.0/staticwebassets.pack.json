@@ -1,340 +1,728 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\Logo_Lang_Son.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\Logo_Lang_Son.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\Logo_Lang_Son.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\anh-PNG.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\Lovepik_com-401616292-barbecue.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\Lovepik_com-401616292-barbecue.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\anh-PNG.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\anh-PNG.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\anh-doremon-dang-yeu_033146112.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\anh-doremon-dang-yeu_033146112.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\anh-doremon-dang-yeu_033146112.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\baskinrobbins.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\anh1.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\anh1.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\anh2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\anh2.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\baskinrobbins.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\baskinrobbins.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\billgates.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\billgates.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\billgates.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\burgerking.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\burgerking.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\burgerking.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\burgers.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\burgers.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\burgers.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenfries.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenfries.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\chickenfries.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickengoldendelight.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickengoldendelight.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\chickengoldendelight.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenmaharajamac.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenmaharajamac.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\chickenmaharajamac.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenmcnuggets.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenmcnuggets.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\chickenmcnuggets.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickensausage.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickensausage.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\chickensausage.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickentwistedwhopper.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickentwistedwhopper.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\chickentwistedwhopper.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenwhopper.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenwhopper.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\chickenwhopper.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenwings.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\chickenwings.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\chickenwings.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\coldcoffee.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\coldcoffee.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\coldcoffee.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\conect.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\conect.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\conect.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\crispyvegburger.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\crispyvegburger.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\crispyvegburger.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\crispyvegdoublepatty.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\crispyvegdoublepatty.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\crispyvegdoublepatty.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\db0eff38773fb161e82e.jpg",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\db0eff38773fb161e82e.jpg",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\db0eff38773fb161e82e.jpg"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\dominospizza.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\dominospizza.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\dominospizza.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\doraemon-4553920_640.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\doraemon-4553920_640.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\doraemon-4553920_640.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\f4baa1ae846e42301b7f.jpg",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\download (1).jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\download (1).jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\drinks-4.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\drinks-4.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\f4baa1ae846e42301b7f.jpg",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\f4baa1ae846e42301b7f.jpg"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\ffa2e9b3492f8d71d43e.jpg",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\ffa2e9b3492f8d71d43e.jpg",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\ffa2e9b3492f8d71d43e.jpg"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\fries.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\fries.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\fries.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\garlicbreadsticks.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\garlicbreadsticks.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\garlicbreadsticks.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\grilledchickenwings.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\grilledchickenwings.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\grilledchickenwings.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\hotcoffee.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\hotcoffee.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\hotcoffee.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\icedtea.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\icedtea.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\icedtea.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\indianchickentikka.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\indianchickentikka.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\indianchickentikka.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\indiantandooripaneer.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\indiantandooripaneer.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\indiantandooripaneer.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\italianchickenfeast.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\italianchickenfeast.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\italianchickenfeast.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\kfc.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\kfc.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\kfc.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\makeup2_by_wlop_dfwt89u-414w-2x.jpg",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\makeup2_by_wlop_dfwt89u-414w-2x.jpg",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\makeup2_by_wlop_dfwt89u-414w-2x.jpg"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\margherita.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\margherita.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\margherita.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcchicken.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcchicken.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\mcchicken.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcflurrychococrunch.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcflurrychococrunch.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\mcflurrychococrunch.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcspicychicken.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcspicychicken.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\mcspicychicken.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcspicypaneer.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcspicypaneer.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\mcspicypaneer.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcswirlchocolate.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mcswirlchocolate.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\mcswirlchocolate.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mexicangreenwave.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\mexicangreenwave.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\mexicangreenwave.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\ourworldfamousfries.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\ourworldfamousfries.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\ourworldfamousfries.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\paneerandonion.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\paneerandonion.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\paneerandonion.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\pepperbarbequechicken.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\pepperbarbequechicken.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\pepperbarbequechicken.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\pizzahut.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\pizzahut.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\pizzahut.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\pizzamcpuff.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\pizzamcpuff.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\pizzamcpuff.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\spicedchickenmeatballs.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\poster-bbq.png",
+      "PackagePath": "staticwebassets\\images\\gallery\\square\\poster-bbq.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\spicedchickenmeatballs.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\spicedchickenmeatballs.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\spicedtomatotwistnonveg.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\spicedtomatotwistnonveg.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\spicedtomatotwistnonveg.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\spicygrillchickenburger.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\spicygrillchickenburger.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\spicygrillchickenburger.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\starbucks.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\starbucks.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\starbucks.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\stuffedgarlicbread.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\stuffedgarlicbread.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\stuffedgarlicbread.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\subway.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\subway.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\subway.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\sundaechocolatebrownie.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\sundaechocolatebrownie.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\sundaechocolatebrownie.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\sundaestrawberry.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\sundaestrawberry.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\sundaestrawberry.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\teawithmilk.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\teawithmilk.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\teawithmilk.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\vegextravaganza.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\vegextravaganza.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\vegextravaganza.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\veggiesupreme.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\veggiesupreme.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\veggiesupreme.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\vegloaded.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\vegloaded.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\vegloaded.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\zestychickenpocket.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\gallery\\square\\zestychickenpocket.png",
       "PackagePath": "staticwebassets\\images\\gallery\\square\\zestychickenpocket.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\Logo_Lang_Son.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\Logo_Lang_Son.png",
       "PackagePath": "staticwebassets\\images\\logo\\Logo_Lang_Son.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\anh-PNG.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\Lovepik_com-401616292-barbecue (1).png",
+      "PackagePath": "staticwebassets\\images\\logo\\Lovepik_com-401616292-barbecue (1).png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\anh-PNG.png",
       "PackagePath": "staticwebassets\\images\\logo\\anh-PNG.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\baskinrobbins.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\anh1.png",
+      "PackagePath": "staticwebassets\\images\\logo\\anh1.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\baskinrobbins.png",
       "PackagePath": "staticwebassets\\images\\logo\\baskinrobbins.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\burgerking.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\burger.png",
+      "PackagePath": "staticwebassets\\images\\logo\\burger.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\burgerking.png",
       "PackagePath": "staticwebassets\\images\\logo\\burgerking.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\db0eff38773fb161e82e.jpg",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\db0eff38773fb161e82e.jpg",
       "PackagePath": "staticwebassets\\images\\logo\\db0eff38773fb161e82e.jpg"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\dominos.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\dessert.png",
+      "PackagePath": "staticwebassets\\images\\logo\\dessert.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\dominos.png",
       "PackagePath": "staticwebassets\\images\\logo\\dominos.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\doraemon-4553920_640.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\doraemon-4553920_640.png",
       "PackagePath": "staticwebassets\\images\\logo\\doraemon-4553920_640.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\kfc.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\drinks-4.png",
+      "PackagePath": "staticwebassets\\images\\logo\\drinks-4.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\drinks.png",
+      "PackagePath": "staticwebassets\\images\\logo\\drinks.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\fried_chicken.png",
+      "PackagePath": "staticwebassets\\images\\logo\\fried_chicken.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\kfc.png",
       "PackagePath": "staticwebassets\\images\\logo\\kfc.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\mcdonalds.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\logo-gogi.png",
+      "PackagePath": "staticwebassets\\images\\logo\\logo-gogi.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\mcdonalds.png",
       "PackagePath": "staticwebassets\\images\\logo\\mcdonalds.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\pizzahut.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\noodles.png",
+      "PackagePath": "staticwebassets\\images\\logo\\noodles.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\pizza.png",
+      "PackagePath": "staticwebassets\\images\\logo\\pizza.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\pizzahut.png",
       "PackagePath": "staticwebassets\\images\\logo\\pizzahut.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\starbucks.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\poster-bbq.png",
+      "PackagePath": "staticwebassets\\images\\logo\\poster-bbq.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\starbucks.png",
       "PackagePath": "staticwebassets\\images\\logo\\starbucks.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\subway.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\logo\\subway.png",
       "PackagePath": "staticwebassets\\images\\logo\\subway.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\anh-PNG.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\anh-PNG.png",
       "PackagePath": "staticwebassets\\images\\poster\\anh-PNG.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\anh-doremon-dang-yeu_033146112.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\anh-doremon-dang-yeu_033146112.png",
       "PackagePath": "staticwebassets\\images\\poster\\anh-doremon-dang-yeu_033146112.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\baskinrobbins.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\anh2.jpg",
+      "PackagePath": "staticwebassets\\images\\poster\\anh2.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\baskinrobbins.png",
       "PackagePath": "staticwebassets\\images\\poster\\baskinrobbins.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\burgerking.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\burgerking.png",
       "PackagePath": "staticwebassets\\images\\poster\\burgerking.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\dominos.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\dominos.png",
       "PackagePath": "staticwebassets\\images\\poster\\dominos.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\f4baa1ae846e42301b7f.jpg",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\drinks-4.png",
+      "PackagePath": "staticwebassets\\images\\poster\\drinks-4.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\f4baa1ae846e42301b7f.jpg",
       "PackagePath": "staticwebassets\\images\\poster\\f4baa1ae846e42301b7f.jpg"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\ffa2e9b3492f8d71d43e.jpg",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\ffa2e9b3492f8d71d43e.jpg",
       "PackagePath": "staticwebassets\\images\\poster\\ffa2e9b3492f8d71d43e.jpg"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\kfc.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\kfc.png",
       "PackagePath": "staticwebassets\\images\\poster\\kfc.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\mart.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\logo-gogi.png",
+      "PackagePath": "staticwebassets\\images\\poster\\logo-gogi.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\mart.png",
       "PackagePath": "staticwebassets\\images\\poster\\mart.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\mcdonalds.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\mcdonalds.png",
       "PackagePath": "staticwebassets\\images\\poster\\mcdonalds.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\pizzahut.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\pizzahut.png",
       "PackagePath": "staticwebassets\\images\\poster\\pizzahut.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\starbucks.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\poster-bbq.png",
+      "PackagePath": "staticwebassets\\images\\poster\\poster-bbq.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\starbucks.png",
       "PackagePath": "staticwebassets\\images\\poster\\starbucks.png"
     },
     {
-      "Id": "C:\\Users\\BT Soft\\Desktop\\tai\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\subway.png",
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\poster\\subway.png",
       "PackagePath": "staticwebassets\\images\\poster\\subway.png"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_0d0f309e-e52d-4b1a-acb2-f738e8eece2a.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_0d0f309e-e52d-4b1a-acb2-f738e8eece2a.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_0db6f6f8-c404-4425-9f71-b1bb997f7740.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_0db6f6f8-c404-4425-9f71-b1bb997f7740.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_10485a33-1f98-4dcf-8372-0047a9065e81.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_10485a33-1f98-4dcf-8372-0047a9065e81.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_107169a7-b6f1-425a-a446-06916cd48a01.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_107169a7-b6f1-425a-a446-06916cd48a01.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_16922e46-3333-4137-804d-bf38ce8db420.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_16922e46-3333-4137-804d-bf38ce8db420.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_17940709-fc34-4f85-ba89-baecf1595a6e.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_17940709-fc34-4f85-ba89-baecf1595a6e.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_208d8c55-0763-4b8d-a8ac-14279cfc9f87.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_208d8c55-0763-4b8d-a8ac-14279cfc9f87.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_248bd812-6c8b-4e65-aae4-192899cf7543.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_248bd812-6c8b-4e65-aae4-192899cf7543.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_28584b11-2aa5-4574-ae50-0f15daf3b5b0.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_28584b11-2aa5-4574-ae50-0f15daf3b5b0.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_2b5eb57f-186e-4bd8-a9ab-28adc7e88151.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_2b5eb57f-186e-4bd8-a9ab-28adc7e88151.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_2d685b61-8bdd-4e13-9fa8-5fec720811cd.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_2d685b61-8bdd-4e13-9fa8-5fec720811cd.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_32bec7f1-45ac-42c2-9574-a8495fb95e08.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_32bec7f1-45ac-42c2-9574-a8495fb95e08.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_369ccd94-57ae-40de-bb80-f206e7794fb0.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_369ccd94-57ae-40de-bb80-f206e7794fb0.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_36ef78e5-c705-467b-bf9e-ea6c4e6bbe4b.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_36ef78e5-c705-467b-bf9e-ea6c4e6bbe4b.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_373ab987-d9f7-4f5b-8ae3-4d6a469bb74e.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_373ab987-d9f7-4f5b-8ae3-4d6a469bb74e.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_3af224c2-57bf-4904-b47d-575cf89a6781.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_3af224c2-57bf-4904-b47d-575cf89a6781.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_3b53c0dd-4a14-4794-a70f-7a83a2a91e61.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_3b53c0dd-4a14-4794-a70f-7a83a2a91e61.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_3d8cdb3e-7767-42c7-8683-afcee61773e1.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_3d8cdb3e-7767-42c7-8683-afcee61773e1.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_3f88de60-f97d-4ad6-baf5-494591941480.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_3f88de60-f97d-4ad6-baf5-494591941480.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_3fd2c7ae-410f-4014-ad51-dab19a83684c.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_3fd2c7ae-410f-4014-ad51-dab19a83684c.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_402e2731-dc27-4a0b-b14f-2c1d0a7fd293.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_402e2731-dc27-4a0b-b14f-2c1d0a7fd293.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_40e71c74-2180-4611-9966-798e8f01d162.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_40e71c74-2180-4611-9966-798e8f01d162.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_41a08b89-236a-454f-ba00-3b6d03838100.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_41a08b89-236a-454f-ba00-3b6d03838100.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_45448a12-684b-48cc-8356-1d7aff3da84d.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_45448a12-684b-48cc-8356-1d7aff3da84d.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_49e8400b-192b-4e28-a0aa-4827c5ffb09f.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_49e8400b-192b-4e28-a0aa-4827c5ffb09f.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_50404331-bcc8-4e68-b25b-e3036493f59e.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_50404331-bcc8-4e68-b25b-e3036493f59e.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_51ee2640-9c01-4465-9319-2a2745a51d5c.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_51ee2640-9c01-4465-9319-2a2745a51d5c.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_528c017e-ab75-4db1-9de0-592244d13f52.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_528c017e-ab75-4db1-9de0-592244d13f52.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_5482261a-caf1-4908-8a78-307efd9a199c.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_5482261a-caf1-4908-8a78-307efd9a199c.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_599f2274-1ad3-4402-97bb-c7c05b422129.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_599f2274-1ad3-4402-97bb-c7c05b422129.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_5ecd5321-263b-4641-a483-1a05123eacf5.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_5ecd5321-263b-4641-a483-1a05123eacf5.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_6188301c-67c2-40b8-b429-2c17dcefaf58.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_6188301c-67c2-40b8-b429-2c17dcefaf58.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_644fe381-69b2-4345-bf2f-c9b42a6f077e.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_644fe381-69b2-4345-bf2f-c9b42a6f077e.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_691beb67-13e5-48a4-87b4-8eb65d248b40.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_691beb67-13e5-48a4-87b4-8eb65d248b40.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_722b0c98-f798-47e9-83fa-a7fa52423d55.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_722b0c98-f798-47e9-83fa-a7fa52423d55.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_72ed13d1-5720-495d-9911-0bdf7511038b.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_72ed13d1-5720-495d-9911-0bdf7511038b.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_7cc51437-33f1-4894-ba4a-7ae052a9eb15.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_7cc51437-33f1-4894-ba4a-7ae052a9eb15.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_7f11616c-6799-471b-967e-20cda821eb12.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_7f11616c-6799-471b-967e-20cda821eb12.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_7fdfb379-562f-40c6-bfb6-3e18269e4084.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_7fdfb379-562f-40c6-bfb6-3e18269e4084.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_8113856e-da00-4e66-b01a-bbc8fedb9ff5.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_8113856e-da00-4e66-b01a-bbc8fedb9ff5.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_8289b084-f16c-493c-a419-a5608afd3229.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_8289b084-f16c-493c-a419-a5608afd3229.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_82ca30e5-e31f-405b-a324-c126ff177dd1.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_82ca30e5-e31f-405b-a324-c126ff177dd1.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_835c76a6-b066-41b3-b6d0-1d79046a38cc.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_835c76a6-b066-41b3-b6d0-1d79046a38cc.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_8471cb3e-a8f8-4bcf-8c77-90a7d66991b3.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_8471cb3e-a8f8-4bcf-8c77-90a7d66991b3.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_869b1c27-0157-4fb8-bcaf-62062c085615.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_869b1c27-0157-4fb8-bcaf-62062c085615.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_8a497853-807e-45fd-b174-73cd1159921f.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_8a497853-807e-45fd-b174-73cd1159921f.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_8b886717-5092-4bdd-8e19-c99d7fb6bb4f.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_8b886717-5092-4bdd-8e19-c99d7fb6bb4f.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_9aef1ab1-1a0f-4226-85f8-5212c44a890f.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_9aef1ab1-1a0f-4226-85f8-5212c44a890f.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_9bb13a25-4197-4d3d-8db1-8dccb8a8e882.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_9bb13a25-4197-4d3d-8db1-8dccb8a8e882.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_9d2606a3-d668-49ae-af1c-af754ef29d08.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_9d2606a3-d668-49ae-af1c-af754ef29d08.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_9fa80fcc-55d1-413f-81dd-db0a7fd0bf2c.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_9fa80fcc-55d1-413f-81dd-db0a7fd0bf2c.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_a355d759-ccd2-4be9-b8a8-c76a4efcff18.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_a355d759-ccd2-4be9-b8a8-c76a4efcff18.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_a6cddace-2493-42fd-9aa2-9cf40a4a39f0.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_a6cddace-2493-42fd-9aa2-9cf40a4a39f0.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_a88a0efc-4770-48f1-b155-c131063a421b.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_a88a0efc-4770-48f1-b155-c131063a421b.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_aa024b38-477a-4a0b-8446-ee50d3b84235.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_aa024b38-477a-4a0b-8446-ee50d3b84235.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_ae831d00-8fa7-46c9-9ae0-72995f177012.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_ae831d00-8fa7-46c9-9ae0-72995f177012.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_ba565587-a38c-4a68-bb84-10609ce7c985.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_ba565587-a38c-4a68-bb84-10609ce7c985.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_bf02cdf6-8f4b-42c9-854c-f58219865c90.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_bf02cdf6-8f4b-42c9-854c-f58219865c90.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_c603f8dd-4927-4afa-b6ad-358cff4a265c.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_c603f8dd-4927-4afa-b6ad-358cff4a265c.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_cda4d109-8ef6-44b2-8bbb-53597791786f.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_cda4d109-8ef6-44b2-8bbb-53597791786f.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_d1303082-514c-4bab-ad80-7431a7eb3756.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_d1303082-514c-4bab-ad80-7431a7eb3756.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_d208c2e1-8923-41b5-876a-44ea4e256ade.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_d208c2e1-8923-41b5-876a-44ea4e256ade.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_d8ba50c8-da54-463d-b636-63cc334b4715.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_d8ba50c8-da54-463d-b636-63cc334b4715.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_dcca6599-b0f0-4725-9563-2f25c5795264.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_dcca6599-b0f0-4725-9563-2f25c5795264.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_dd4ecbf4-47c5-4278-83d8-440dfd27b4d1.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_dd4ecbf4-47c5-4278-83d8-440dfd27b4d1.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_e16e22f6-eab1-4ddf-9995-6f86e85e7018.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_e16e22f6-eab1-4ddf-9995-6f86e85e7018.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_e367f3ce-d915-430e-a3b5-1ce7ca127259.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_e367f3ce-d915-430e-a3b5-1ce7ca127259.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_e57f77a5-883d-46a1-8af9-33b3ac451baa.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_e57f77a5-883d-46a1-8af9-33b3ac451baa.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_ea3b62c4-d0bd-4559-8cf1-7f10b14c9c57.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_ea3b62c4-d0bd-4559-8cf1-7f10b14c9c57.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_ed4a03de-5cd5-49f3-b76e-6e2c28b074a9.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_ed4a03de-5cd5-49f3-b76e-6e2c28b074a9.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_ee339b7f-0aea-4611-92c7-e59c31e70fe5.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_ee339b7f-0aea-4611-92c7-e59c31e70fe5.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_f287aa7e-43cb-4d2d-b4f7-55aa7c891f43.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_f287aa7e-43cb-4d2d-b4f7-55aa7c891f43.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_f41235ca-b0e9-40fb-960c-418edb425cac.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_f41235ca-b0e9-40fb-960c-418edb425cac.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_f5e5e432-47d8-4068-9173-262300eb0c49.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_f5e5e432-47d8-4068-9173-262300eb0c49.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_f7182d93-7cea-466d-9509-35f3187e637b.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_f7182d93-7cea-466d-9509-35f3187e637b.jpg"
+    },
+    {
+      "Id": "C:\\Code\\ReactNative\\ProjectSem4\\DeliveryFoodBackEnd\\Food_Delivery_App_BackEnd\\wwwroot\\images\\reviews\\rn_image_picker_lib_temp_f94fa4c0-b1b3-4ac5-9d63-8c61553001f7.jpg",
+      "PackagePath": "staticwebassets\\images\\reviews\\rn_image_picker_lib_temp_f94fa4c0-b1b3-4ac5-9d63-8c61553001f7.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Food_Delivery_App_BackEnd.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -57,6 +57,8 @@ namespace Food_Delivery_App_BackEnd.ModelDTO.Response
         public List<Users>? User { get; set; }
 
 
+        [BsonElement("reviewStatus")]
+        public int ReviewStatus { get; set; } = 1;
 
         }
 }

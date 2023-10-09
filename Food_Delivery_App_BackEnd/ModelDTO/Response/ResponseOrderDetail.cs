@@ -22,6 +22,6 @@ namespace Food_Delivery_App_BackEnd.ModelDTO.Response
         public int Quantity { get; set; }
 
         [BsonElement("foods")]
-        public List<Foods>?  Foods { get; set; }
+        public List<Foods>? Foods { get; set; }
     }
 }

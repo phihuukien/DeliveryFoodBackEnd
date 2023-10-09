@@ -201,7 +201,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                 {
                     return new JsonResult(new { Message = "Successfully", Status = true, Data = orders });
                 }
-                return new JsonResult(new { Message = "Not orders waiting", Status = false });
+                return new JsonResult(new { Message = "Not orders waiting", Status = false , Data = "" });
             }
             catch (Exception ex)
             {
@@ -304,13 +304,13 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
 
         public IActionResult GetOrderToday(string restaurantId)
         {
-            var foodSoldOut = _context.Orders.Find(x => x.Status == (int)StatusFood.SOLDOUT).ToList().Count();
+            var foodSoldOut = _context.Foods.Find(x => x.Status == (int)StatusFood.SOLDOUT && x.RestaurantId == restaurantId).ToList().Count();
             var orderToday = _context.Orders.Find(x => x.RestaurantId == restaurantId && x.DateCreated.Day == DateTime.Now.Day).ToList();
             var orderPending = orderToday.Where(x => x.Status == (int)Status.PENDING).ToList();
             var orderWaiting = orderToday.Where(x => x.Status == (int)Status.WAITING).ToList();
             var orderCancel = orderToday.Where(x => x.Status == (int)Status.Cancel).ToList();
 
-            var earnings = orderToday.Where(x=>x.Status==5).Sum(x => x.PriceTotal);
+            var earnings = orderToday.Where(x=>x.Status==4).Sum(x => x.PriceTotal);
             var orderFinish = orderToday.Where(x => x.Status == (int)Status.Finish).Count();
 
             var responseDashboard = new ResponseDashboard();

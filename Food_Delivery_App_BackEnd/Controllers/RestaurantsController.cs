@@ -25,6 +25,12 @@ namespace Food_Delivery_App_BackEnd.Controllers
         {
             return repositoryRestaurants.GetAllRestaurants();
         }
+        [HttpGet]
+        [Route("get-by-rate")]
+        public IActionResult GetRestaurantsByRate()
+        {
+            return repositoryRestaurants.GetAllRestaurantsByRate();
+        }
 
         [HttpGet]
         [Route("{restaurantId}")]
@@ -38,6 +44,13 @@ namespace Food_Delivery_App_BackEnd.Controllers
         public IActionResult GetRestaurantById(string restaurantId)
         {
             return repositoryRestaurants.GetRestaurantById(restaurantId);
+        }
+
+        [HttpGet]
+        [Route("tag/{tagName}")]
+        public IActionResult GetRestaurantsByTag(string tagName)
+        {
+            return repositoryRestaurants.GetRestaurantsByTag(tagName);
         }
 
         [HttpGet]

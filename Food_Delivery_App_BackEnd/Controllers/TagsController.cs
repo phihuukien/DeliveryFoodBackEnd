@@ -1,12 +1,16 @@
-﻿using Food_Delivery_App_BackEnd.Repositories.IRepositories;
+﻿using Food_Delivery_App_BackEnd.Models.DataModels;
+using Food_Delivery_App_BackEnd.Repositories.ImplRepositories;
+using Food_Delivery_App_BackEnd.Repositories.IRepositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Food_Delivery_App_BackEnd.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/tags")]
     [ApiController]
+    [Authorize]
     public class TagsController : ControllerBase
     {
         private IRepositoryTags repositoryTags;
@@ -22,6 +26,12 @@ namespace Food_Delivery_App_BackEnd.Controllers
         public IActionResult Index()
         {
             return repositoryTags.GetAll();
+        }
+        [HttpGet]
+        [Route("getAll")]
+        public IActionResult GetAllTags()
+        {
+            return repositoryTags.GetAllTags();
         }
 
         // GET api/<TagsController>/5

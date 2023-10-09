@@ -137,7 +137,7 @@ namespace Food_Delivery_App_BackEnd.Repositories.ImplRepositories
                 var response = _context.Foods.Aggregate()
                             .Match(x => x.Name.ToLower().Contains(name))
                             .Lookup("restaurants", "restaurantId", "_id", "restaurant")
-                            // .Group(BsonDocument.Parse("{ _id: '$restaurantId',restaurant:{'$first':'$restaurant'}}"))
+                            .Group(BsonDocument.Parse("{ _id: '$restaurantId',restaurant:{'$first':'$restaurant'}}"))
                             .ToList();
                 var foodItems = new List<ResponseFoods>();
                 foreach (var item in response)
